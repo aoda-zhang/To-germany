@@ -17,7 +17,7 @@
 
 ## 简历准备
 - 简历参考截图图片 [德国简历模版](../germany-refer.png)
-- 在线简历制作器
+- 在线简历制作器 https://flowcv.com
 - 德国可以用英语工作的公司 
 https://docs.google.com/spreadsheets/d/1ugzubxiROOuLgzm-Vltl3CRNQNEVGtQ7IQzrNppyV1I/edit?gid=1178397007#gid=1178397007
 
