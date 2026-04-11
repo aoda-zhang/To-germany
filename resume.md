@@ -7,6 +7,17 @@
 - 在线简历制作器 https://flowcv.com
 ## 不同职位简历
 ### Frontend
+Full-stack developer with a focus on React and Node.js, experienced in building scalable web applications and microservices architectures.
+Strong background in modern frontend technologies, API design, and cloud-based deployments.
+
+
+
+
+I’m a full-stack developer specializing in React and Node.js, with a strong focus on building scalable and maintainable web applications.
+
+I enjoy working on clean architecture, improving developer experience, and solving real-world problems through technology.
+
+Outside of work, I’m particularly interested in building projects that have a real-world impact, such as platforms for animal rescue and tools that help people create resumes.
 
 ### Fullstack
 ## 德国可英语工作的公司
