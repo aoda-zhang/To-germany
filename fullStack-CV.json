@@ -23,10 +23,13 @@
       "startDate": "08/2022",
       "endDate": "",
       "current": true,
-      "description": "Responsible forcompany core productsFrontendarchitecture designanddevelopment\nled5person team to complete multiple key projects\ndsfsdfsf\noptimizeFrontendperformance，first screen loadingTimereduce50%",
+      "description": "djiasdasj\ndasd",
       "address": "成都.中国",
-      "workMode": "remote",
-      "techStack": "react,nodejs"
+      "workMode": "",
+      "techStack": "react,  nodejs,      fdsf",
+      "country": "",
+      "companyDescription": "搞基金的",
+      "companyWebsite": "client.asia.manulifeam.com"
     },
     {
       "id": "2",
@@ -35,14 +38,14 @@
       "startDate": "08/2021",
       "endDate": "07/2022",
       "current": false,
-      "description": ". Led frontend stack migration from AngularJS to React/TypeScript, increasing development speed by 30%\n. Built internal reusable UI component library used in 10+ projects\n. Delivered core modules for Newegg Global Seller Portal, impacting 20,000+ suppliers\nMentored 4 junior engineers and facilitated 2 promotions"
+      "description": "Led frontend stack migration from AngularJS to React/TypeScript, increasing development speed by 30%\nBuilt internal reusable UI component library used in 10+ projects\nDelivered core modules for Newegg Global Seller Portal, impacting 20,000+ suppliers\nMentored 4 junior engineers and facilitated 2 promotions"
     }
   ],
   "education": [
     {
       "id": "1",
       "school": "Lanzhou University of Finance and Economics",
-      "degree": "Bachelor's degree",
+      "degree": "",
       "field": "Computer Science and Tech",
       "startDate": "09/2013",
       "endDate": "06/2017",
@@ -52,24 +55,130 @@
   ],
   "skills": [
     {
-      "id": "1",
-      "name": "React",
-      "level": "expert"
-    },
-    {
-      "id": "2",
-      "name": "TypeScript",
-      "level": "expert"
-    },
-    {
-      "id": "3",
+      "id": "skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0",
       "name": "Node.js",
-      "level": "advanced"
+      "level": "intermediate",
+      "category": "Frontend",
+      "order": 2
     },
     {
-      "id": "4",
-      "name": "Python",
-      "level": "intermediate"
+      "id": "skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_1",
+      "name": "Express.js",
+      "level": "intermediate",
+      "category": "Frontend",
+      "order": 2
+    },
+    {
+      "id": "skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_2",
+      "name": "Nest.js",
+      "level": "intermediate",
+      "category": "Frontend",
+      "order": 2
+    },
+    {
+      "id": "skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_3",
+      "name": "REST APIs",
+      "level": "intermediate",
+      "category": "Frontend",
+      "order": 2
+    },
+    {
+      "id": "skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_4",
+      "name": "MongoDB",
+      "level": "intermediate",
+      "category": "Frontend",
+      "order": 2
+    },
+    {
+      "id": "skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_5",
+      "name": "Redis",
+      "level": "intermediate",
+      "category": "Frontend",
+      "order": 2
+    },
+    {
+      "id": "skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0",
+      "name": "Git",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_1",
+      "name": "Github",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_2",
+      "name": "Figma",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_3",
+      "name": "Jira",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_4",
+      "name": "confluence",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_0",
+      "name": "HTML5",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_1",
+      "name": "CSS3",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_2",
+      "name": "JavaScript",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_3",
+      "name": "TypeScript",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_4",
+      "name": "React",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_5",
+      "name": "Redux",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
+    },
+    {
+      "id": "skill_1776178715447_skill_1776178654334_skill_1776178592329_skill_1776178500132_skill_1776178493783_skill_1776177825069_skill_1776177822176_0_0_0_0_0_6",
+      "name": "Tailwind CSS",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 1
     }
   ],
   "projects": [],
@@ -90,5 +199,5 @@
       "level": "A1"
     }
   ],
-  "summary": "sdasddsada\ndasd\ndsfcs\nfds\n"
+  "summary": ""
 }
