@@ -3,8 +3,6 @@
 - 参考截图图片 [德国简历模版](../germany-refer.png)
 -  [简历内容参考](./resume_refer.md)
 
-## 简历制作网站
-- 在线简历制作器 https://flowcv.com
 ## 不同职位简历
 ### Frontend
 Full-stack developer with a focus on React and Node.js, experienced in building scalable web applications and microservices architectures.
@@ -22,3 +20,8 @@ Outside of work, I’m particularly interested in building projects that have a 
 ### Fullstack
 ## 德国可英语工作的公司
 https://docs.google.com/spreadsheets/d/1ugzubxiROOuLgzm-Vltl3CRNQNEVGtQ7IQzrNppyV1I/edit?gid=1178397007#gid=1178397007
+
+## 简历制作注意点
+- 每个岗位都尽量选择调整简历内容，岗位的招聘title一定要在summary中包含
+- 专业技能按照前后端分开去写
+- 每个工作经历一定要量化，要带上具体使用的技术栈，和专业技能模块分开写
