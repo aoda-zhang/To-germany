@@ -2,14 +2,14 @@
   "personalInfo": {
     "fullName": "Aoda Zhang",
     "email": "aodazhang666@gmail.com",
-    "phone": "19102632826",
+    "phone": "+86 191 0263 2826",
     "address": "Berlin",
     "linkedin": "linkedin.com/in/aodazhang",
-    "website": "",
-    "summary": "5years of full-stack development experience，Specializing inReactandNode.jsTech Stack。Passionate about open source，Actively participates in tech communities。",
-    "title": "Full-Stack Developer",
+    "website": "aoda.vercel.app",
+    "summary": "",
+    "title": "Full-stack Software Engineer",
     "nationality": "China",
-    "birthDate": "26.08.1994",
+    "birthDate": "August 26, 1994",
     "workPermit": "",
     "blueCard": "",
     "github": "github.com/aoda-zhang",
@@ -18,23 +18,24 @@
   "experience": [
     {
       "id": "1",
-      "company": "Tech Co., Ltd.",
-      "position": "AdvancedFrontendEngineer",
-      "startDate": "2022-01",
+      "company": "Manulife",
+      "position": "Full-stack Software Engineer",
+      "startDate": "08/2022",
       "endDate": "",
       "current": true,
-      "description": "Responsible forcompany core productsFrontendarchitecture designanddevelopment\nled5person team to complete multiple key projects\noptimizeFrontendperformance，first screen loadingTimereduce50%",
+      "description": "Responsible forcompany core productsFrontendarchitecture designanddevelopment\nled5person team to complete multiple key projects\ndsfsdfsf\noptimizeFrontendperformance，first screen loadingTimereduce50%",
       "address": "成都.中国",
-      "workMode": "remote"
+      "workMode": "remote",
+      "techStack": "react,nodejs"
     },
     {
       "id": "2",
-      "company": "Internet Company",
-      "position": "FrontendEngineer",
-      "startDate": "2020-06",
-      "endDate": "2021-12",
+      "company": "Newegg",
+      "position": "Senior Frontend Software Engineer",
+      "startDate": "08/2021",
+      "endDate": "07/2022",
       "current": false,
-      "description": "participated in e-commerce platformFrontenddevelopment\nimplemented complex interactive featuresandanimation effects\nworked closely with designers，ensuredUI/UXquality"
+      "description": ". Led frontend stack migration from AngularJS to React/TypeScript, increasing development speed by 30%\n. Built internal reusable UI component library used in 10+ projects\n. Delivered core modules for Newegg Global Seller Portal, impacting 20,000+ suppliers\nMentored 4 junior engineers and facilitated 2 promotions"
     }
   ],
   "education": [
@@ -43,8 +44,8 @@
       "school": "Lanzhou University of Finance and Economics",
       "degree": "Bachelor's degree",
       "field": "Computer Science and Tech",
-      "startDate": "2013",
-      "endDate": "2017",
+      "startDate": "09/2013",
+      "endDate": "06/2017",
       "current": false,
       "address": "Gansu, China"
     }
@@ -75,13 +76,19 @@
   "languages": [
     {
       "id": "1",
+      "name": "English",
+      "level": "B2 - C1"
+    },
+    {
+      "id": "2",
       "name": "Chinese",
       "level": "Native"
     },
     {
-      "id": "2",
-      "name": "English",
-      "level": "Fluent"
+      "id": "lang_1776147712437",
+      "name": "German",
+      "level": "A1"
     }
-  ]
+  ],
+  "summary": "sdasddsada\ndasd\ndsfcs\nfds\n"
 }
