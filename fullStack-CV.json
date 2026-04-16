@@ -32,6 +32,19 @@
       "companyWebsite": "client.asia.manulifeam.com"
     },
     {
+      "id": "2",
+      "company": "Newegg",
+      "position": "Senior Frontend Software Engineer",
+      "startDate": "08/2021",
+      "endDate": "07/2022",
+      "current": false,
+      "description": "Led frontend stack migration from AngularJS to React/TypeScript, increasing development speed by 30%\nBuilt internal reusable UI component library used in 10+ projects\nDelivered core modules for Newegg Global Seller Portal, impacting 20,000+ suppliers\nMentored 4 junior engineers and facilitated 2 promotions",
+      "address": "Chengdu, China",
+      "companyWebsite": "newegg.com",
+      "companyDescription": "Global e-commerce platform for electronics",
+      "techStack": "JavaScript, TypeScript, React, React Native, Redux"
+    },
+    {
       "id": "exp_1776262444278",
       "company": "Hucai",
       "companyWebsite": "gw.hucai.com",
@@ -45,19 +58,6 @@
       "techStack": "Vue, React, Redux, Webpack",
       "country": "",
       "workMode": ""
-    },
-    {
-      "id": "2",
-      "company": "Newegg",
-      "position": "Senior Frontend Software Engineer",
-      "startDate": "08/2021",
-      "endDate": "07/2022",
-      "current": false,
-      "description": "Led frontend stack migration from AngularJS to React/TypeScript, increasing development speed by 30%\nBuilt internal reusable UI component library used in 10+ projects\nDelivered core modules for Newegg Global Seller Portal, impacting 20,000+ suppliers\nMentored 4 junior engineers and facilitated 2 promotions",
-      "address": "Chengdu, China",
-      "companyWebsite": "newegg.com",
-      "companyDescription": "Global e-commerce platform for electronics",
-      "techStack": "JavaScript, TypeScript, React, React Native, Redux"
     }
   ],
   "education": [
