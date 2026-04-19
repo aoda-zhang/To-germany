@@ -5,11 +5,11 @@
     "phone": "+86 191 0263 2826",
     "address": "Berlin, Germany",
     "linkedin": "linkedin.com/in/aodazhang",
-    "website": "https://aoda.vercel.app",
+    "website": "",
     "summary": "",
     "title": "Full-stack Software Engineer",
     "nationality": "China",
-    "birthDate": "August 26, 1994",
+    "birthDate": "26/08/1994",
     "workPermit": "",
     "blueCard": "",
     "github": "github.com/aoda-zhang",
@@ -77,42 +77,42 @@
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0",
       "name": "Node.js",
       "level": "intermediate",
-      "category": "Backtend",
+      "category": "Backend",
       "order": 2
     },
     {
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_1",
       "name": "Express.js",
       "level": "intermediate",
-      "category": "Backtend",
+      "category": "Backend",
       "order": 2
     },
     {
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_2",
       "name": "Nest.js",
       "level": "intermediate",
-      "category": "Backtend",
+      "category": "Backend",
       "order": 2
     },
     {
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_3",
       "name": "REST APIs",
       "level": "intermediate",
-      "category": "Backtend",
+      "category": "Backend",
       "order": 2
     },
     {
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_4",
       "name": "MongoDB",
       "level": "intermediate",
-      "category": "Backtend",
+      "category": "Backend",
       "order": 2
     },
     {
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_5",
       "name": "Redis",
       "level": "intermediate",
-      "category": "Backtend",
+      "category": "Backend",
       "order": 2
     },
     {
@@ -225,5 +225,6 @@
       "level": "A1"
     }
   ],
-  "summary": "Full-stack engineer with 9 years of experience in web development, including 3 years working on end-to-end solutions using React, TypeScript, and Node.js. Background in frontend engineering (6 years), with a focus on maintainable architecture, code quality, and performance optimization.\n\nExperience in multinational environments, contributing to product and platform development. Strong collaboration skills, supporting reliable delivery and continuous improvement of user experience."
+  "summary": "Full-stack engineer with 9 years of experience in web development, including 3 years working on end-to-end solutions using React, TypeScript, and Node.js. Background in frontend engineering (6 years), with a focus on maintainable architecture, code quality, and performance optimization.\n\nExperience in multinational environments, contributing to product and platform development. Strong collaboration skills, supporting reliable delivery and continuous improvement of user experience.",
+  "interests": "Outdoor hiking and trekking, enjoying long-distance trails and time in nature.\nInvolvement in stray animal rescue, supporting local volunteer activities and care efforts."
 }
