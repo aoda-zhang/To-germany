@@ -1,11 +1,11 @@
 {
   "personalInfo": {
     "fullName": "Aoda Zhang",
-    "email": "aodazhang666@gmail.com",
+    "email": "aoda.zhang.work@gmail.com",
     "phone": "+86 191 0263 2826",
-    "address": "Berlin",
+    "address": "Berlin, Germany",
     "linkedin": "linkedin.com/in/aodazhang",
-    "website": "aoda.vercel.app",
+    "website": "https://aoda.vercel.app",
     "summary": "",
     "title": "Full-stack Software Engineer",
     "nationality": "China",
@@ -55,7 +55,7 @@
       "current": false,
       "description": "Developed and maintained frontend pages for e-commerce platform using Vue and React\nIntegrated APIs and developed reusable components under senior developer mentorship",
       "address": "Guangzhou, China",
-      "techStack": "Vue, React, Redux, Webpack",
+      "techStack": "JavaScript , Vue, React, Redux, Webpack",
       "country": "",
       "workMode": ""
     }
@@ -73,41 +73,6 @@
     }
   ],
   "skills": [
-    {
-      "id": "skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0",
-      "name": "Git",
-      "level": "intermediate",
-      "category": "Tools",
-      "order": 3
-    },
-    {
-      "id": "skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_1",
-      "name": "Github",
-      "level": "intermediate",
-      "category": "Tools",
-      "order": 3
-    },
-    {
-      "id": "skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_2",
-      "name": "Figma",
-      "level": "intermediate",
-      "category": "Tools",
-      "order": 3
-    },
-    {
-      "id": "skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_3",
-      "name": "Jira",
-      "level": "intermediate",
-      "category": "Tools",
-      "order": 3
-    },
-    {
-      "id": "skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_4",
-      "name": "confluence",
-      "level": "intermediate",
-      "category": "Tools",
-      "order": 3
-    },
     {
       "id": "skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0",
       "name": "Node.js",
@@ -151,60 +116,95 @@
       "order": 2
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0",
       "name": "HTML5",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_1",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_1",
       "name": "CSS3",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_2",
-      "name": "JavaScript",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_2",
+      "name": "JavaScript (ES6)",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_3",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_3",
       "name": "TypeScript",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_4",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_4",
       "name": "React",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_5",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_5",
       "name": "React Native",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_6",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_6",
       "name": "Redux",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
     },
     {
-      "id": "skill_1776261973316_skill_1776259274302_skill_1776259265984_0_7",
+      "id": "skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_7",
       "name": "Tailwind CSS",
       "level": "intermediate",
       "category": "Frontend",
       "order": 1
+    },
+    {
+      "id": "skill_1776411265085_skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0_0",
+      "name": "Git",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 3
+    },
+    {
+      "id": "skill_1776411265085_skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0_1",
+      "name": "Github",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 3
+    },
+    {
+      "id": "skill_1776411265085_skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0_2",
+      "name": "Figma",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 3
+    },
+    {
+      "id": "skill_1776411265085_skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0_3",
+      "name": "Jira",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 3
+    },
+    {
+      "id": "skill_1776411265085_skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0_4",
+      "name": "Confluence",
+      "level": "intermediate",
+      "category": "Tools",
+      "order": 3
     }
   ],
   "projects": [],
@@ -212,7 +212,7 @@
     {
       "id": "1",
       "name": "English",
-      "level": "B2 - C1"
+      "level": "C1"
     },
     {
       "id": "2",
@@ -225,5 +225,5 @@
       "level": "A1"
     }
   ],
-  "summary": ""
+  "summary": "Full-stack engineer with 9 years of experience in web development, including 3 years working on end-to-end solutions using React, TypeScript, and Node.js. Background in frontend engineering (6 years), with a focus on maintainable architecture, code quality, and performance optimization.\n\nExperience in multinational environments, contributing to product and platform development. Strong collaboration skills, supporting reliable delivery and continuous improvement of user experience."
 }

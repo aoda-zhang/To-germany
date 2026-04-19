@@ -26,3 +26,8 @@ https://docs.google.com/spreadsheets/d/1ugzubxiROOuLgzm-Vltl3CRNQNEVGtQ7IQzrNppy
 - 每个岗位都尽量选择调整简历内容，岗位的招聘title一定要在summary中包含
 - 专业技能按照前后端分开去写
 - 每个工作经历一定要量化，要带上具体使用的技术栈，和专业技能模块分开写
+
+## 找人看简历 adplist
+## 真实面试练习 sesame
+## cambly口语练习，注意找有HR经验的
+## 模拟面试 pramp
