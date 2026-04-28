@@ -1,5 +1,15 @@
 # To Germany
 
+
+## Who you wantyou to be
+- 有一个可以解释清楚每段经历的CV
+- 知道html css js react的常规概念
+- 可以应对80%的UI interface的m面试
+- 查看BQ，可以应对基本常见的BQ面试
+- 知道德国大部分的大厂
+- 有linkedin维护好的newtwork
+
+
 ## 机会卡准备
 
 1. ZAB 学历认证 （国内本科）
