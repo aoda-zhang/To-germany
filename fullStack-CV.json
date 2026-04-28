@@ -24,7 +24,7 @@
       "startDate": "08/2022",
       "endDate": "",
       "current": true,
-      "description": "Led reconstruction of fund trading reporting system, improving development efficiency by 40%\nCompleted design token integration across multiple frontend projects, reducing style bugs by 60%\nParticipated in frontend/backend architecture design and core development of fund trading microservices\nHelped reconstruct DevOps pipeline using GitHub Actions",
+      "description": "Improved development efficiency by 40% by refactoring financial reporting modules adopted by 6 development teams, covering nearly 30 report types.\nIncreased development efficiency by 30% and reduced onboarding time by 40% by building multiple AI-powered agents and skills.\nReduced CSS styling issues by 90% by implementing a system-wide design token solution with the design team\nDelivered core advisor-facing features for the Malaysia market by leading end-to-end development of key modules (ELC, Trip Campaign), supporting nearly 100 investment advisors.\nEnabled the launch of UT and ILP investor capabilities for the Singapore market by implementing core subscription and switch features, generating hundreds of thousands of USD in revenue.",
       "address": "Chengdu, China",
       "workMode": "",
       "techStack": "TypeScript, React, Express.js, Nest.js, MongoDB",
