@@ -4,9 +4,12 @@
 
 ### HTML
 
-#### How browser render html from start to end
+- How browser render html from start to end
 
-#### HML script (script , async, defer,model)
+- HML script (script , async, defer,model)
+- Multilingle websie (i18n,l10n)
+  - how to maintail i18n
+  - Something need to wary (Word Break Problem,date,time,RTL,currency)
 
 #### JS question
 
