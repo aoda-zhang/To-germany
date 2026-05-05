@@ -1,9 +1,9 @@
 # Resume
 
-## 德国简历参考
+## 简历内容
 
 - 参考截图图片 [德国简历模版](../germany-refer.png)
-- [简历内容参考](./resume_refer.md)
+- [我的简历](./myCV.md)
 
 ## 简历制作注意点
 

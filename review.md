@@ -7,9 +7,21 @@
 - How browser render html from start to end
 
 - HML script (script , async, defer,model)
-- Multilingle websie (i18n,l10n)
-  - how to maintail i18n
+- Multilingual website (i18n,l10n)
+  - how to maintain i18n
   - Something need to wary (Word Break Problem,date,time,RTL,currency)
+### CSS
+- CSS box model
+- CSS display
+- differ between block and inline element
+- how a browser determines what elements match a CSS selector
+  - From right to left rule
+  - As flat,simple as possible to reduce complexity
+- Why use translate instead of absolute position
+  - Translate is faster than absolute (Translate is GPU rendering,Absolute is CPU rendering)
+  - Translate 是视觉上的移动，absolute is physical move, it will repaint the whole page
+
+  
 
 #### JS question
 
