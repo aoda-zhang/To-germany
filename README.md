@@ -26,14 +26,17 @@
 3. 语言学习证明
 
 ## 简历准备
+[润指导](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook?tab=readme-ov-file)
+
 [简历准备详情](./resume.md)
 
 
-## 技术面试准备
+## 面试准备
+[海外面试特点](https://mp.weixin.qq.com/s/vNGoO9OgT21yf-gAHSn3kQ)
 
-1. 技术面试
-2. 系统设计面试
-3. 行为面试
+[如何短时间内准备英文面试](https://x.com/VoidAsuka/status/1602968576272367617?t=boM_AayFPFmbPoIjKwVTWw&s=09)
+
+[mock面试](https://www.pramp.com)
 
 
 ## 英语
