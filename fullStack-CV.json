@@ -3,7 +3,7 @@
     "fullName": "Aoda Zhang",
     "title": "Full-stack Software Engineer",
     "address": "Berlin, Germany",
-    "phone": "+86 191 0263 2826",
+    "phone": "+49 150 50582 917",
     "email": "aoda.zhang.work@gmail.com",
     "linkedin": "linkedin.com/in/aodazhang",
     "website": "",
@@ -24,12 +24,12 @@
       "startDate": "08/2022",
       "endDate": "",
       "current": true,
-      "description": "Improved development efficiency by 40% by refactoring financial reporting modules adopted by 6 development teams, covering nearly 30 report types.\nIncreased development efficiency by 30% and reduced onboarding time by 40% by building multiple AI-powered agents and skills.\nReduced CSS styling issues by 90% by implementing a system-wide design token solution with the design team\nDelivered core advisor-facing features for the Malaysia market by leading end-to-end development of key modules (ELC, Trip Campaign), supporting nearly 100 investment advisors.\nEnabled the launch of UT and ILP investor capabilities for the Singapore market by implementing core subscription and switch features, generating hundreds of thousands of USD in revenue.",
+      "description": "Cut PDF report delivery time by 60% by refactoring a shared backend generation module.\nAchieved 65% investment conversion rate by building a fund eligibility module for 50k+ customers.\nReduced UI issues by 40% by implementing design tokens to resolve cross-product styling inconsistencies.\nReduced feature delivery time by 35% across 6 projects by leading a 50+ component React library.\nBoosted documentation efficiency 3x by building AI tooling that converts code to business docs.",
       "address": "Chengdu, China",
       "workMode": "",
       "techStack": "TypeScript, React, Express.js, Nest.js, MongoDB",
       "country": "",
-      "companyDescription": "Leading global financial services company",
+      "companyDescription": "Global top-10 insurer serving millions across Asia and North America",
       "companyWebsite": "client.asia.manulifeam.com"
     },
     {
@@ -39,22 +39,22 @@
       "startDate": "08/2021",
       "endDate": "07/2022",
       "current": false,
-      "description": "Led frontend stack migration from AngularJS to React/TypeScript, increasing development speed by 30%\nBuilt internal reusable UI component library used in 10+ projects\nDelivered core modules for Newegg Global Seller Portal, impacting 20,000+ suppliers\nMentored 4 junior engineers and facilitated 2 promotions",
+      "description": "Led Angular-to-React micro-frontend migration with zero downtime across 3 production teams.\nImproved seller publishing efficiency by 40% by building A+ content marketplace features.\nBuilt 12+ mobile app features enabling end-to-end store management for sellers.\nReduced RN bundle size by 60% and loading time by 40% through optimization and dependency cleanup.",
       "address": "Chengdu, China",
       "companyWebsite": "newegg.com",
-      "companyDescription": "Global e-commerce platform for electronics",
+      "companyDescription": "Leading North American tech e-commerce platform",
       "techStack": "JavaScript, TypeScript, React, React Native, Redux"
     },
     {
       "id": "exp_1776262444278",
       "company": "Hucai",
       "companyWebsite": "gw.hucai.com",
-      "companyDescription": "Digital printing and customized publishing company",
+      "companyDescription": "Packaging e-commerce and enterprise solutions provider",
       "position": "Frontend Software Engineer",
       "startDate": "09/2017",
       "endDate": "06/2021",
       "current": false,
-      "description": "Developed and maintained frontend pages for e-commerce platform using Vue and React\nIntegrated APIs and developed reusable components under senior developer mentorship",
+      "description": "Built e-commerce platform serving 2k+ daily users, handling cart and inventory modules.\nBuilt React attendance platform for 1,000+ employees, reducing HR manual workload by ~60%.",
       "address": "Guangzhou, China",
       "techStack": "JavaScript , Vue, React, Redux, Webpack",
       "country": "",
@@ -226,6 +226,6 @@
       "level": "A1"
     }
   ],
-  "summary": "Full-stack engineer with 9 years of experience in web development, including 3 years working on end-to-end solutions using React, TypeScript, and Node.js. Background in frontend engineering (6 years), with a focus on maintainable architecture, code quality, and performance optimization.\n\nExperience in multinational environments, contributing to product and platform development. Strong collaboration skills, supporting reliable delivery and continuous improvement of user experience.",
+  "summary": "Frontend-Heavy Full-Stack Developer with 9+ years of experience delivering large-scale international fintech applications using React and TypeScript. \nImproved investment conversion rates to 65% for 50k+ customers and built a 50+ component design system that reduced feature delivery time by 35%. \nFull-stack capable with Node.js backend development and distributed system delivery experience.",
   "interests": "Outdoor hiking and trekking, enjoying long-distance trails and time in nature.\nInvolvement in stray animal rescue, supporting local volunteer activities and care efforts."
 }
