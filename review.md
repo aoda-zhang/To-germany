@@ -26,6 +26,9 @@
 #### JS question
 
 > JS question lists https://github.com/greatfrontend/top-javascript-interview-questions
+- JS reduce
+- JS deep clone
+- JS flat
 
 ## Algorithms Interviews
 
