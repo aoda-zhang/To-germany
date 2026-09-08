@@ -32,12 +32,12 @@
 
 
 ## 面试准备
+[自我介绍](./self-introduction.md)
 [海外面试特点](https://mp.weixin.qq.com/s/vNGoO9OgT21yf-gAHSn3kQ)
 
 [如何短时间内准备英文面试](https://x.com/VoidAsuka/status/1602968576272367617?t=boM_AayFPFmbPoIjKwVTWw&s=09)
 
 [mock面试](https://www.pramp.com)
-
 
 ## 英语
 [英语准备详情](./English.md)
