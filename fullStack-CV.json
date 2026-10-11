@@ -24,10 +24,10 @@
       "startDate": "08/2022",
       "endDate": "",
       "current": true,
-      "description": "Cut PDF report delivery time by 60% by refactoring a shared backend generation module.\nAchieved 65% investment conversion rate by building a fund eligibility module for 50k+ customers.\nReduced UI issues by 40% by implementing design tokens to resolve cross-product styling inconsistencies.\nReduced feature delivery time by 35% across 6 projects by leading a 50+ component React library.\nBoosted documentation efficiency 3x by building AI tooling that converts code to business docs.",
+      "description": "Led design token implementation across 5 microfrontend services, standardizing styling and reducing frontend styling issues by at least 30%.\nRefactored a legacy PDF report module with React, reducing new report development time by 40%.\nIndependently designed and built the component library architecture, integrating AI-powered review and maintenance to ensure component quality.\nCollaborated on fund trading modules supporting 3,000+ fund managers and millions of investors.\nBuilt AI-powered tools to accelerate development, improve team onboarding, and help BAs understand historical business logic.",
       "address": "Chengdu, China",
       "workMode": "",
-      "techStack": "TypeScript, React, Express.js, Nest.js, MongoDB",
+      "techStack": "TypeScript, React, Express.js, NestJS, MongoDB",
       "country": "",
       "companyDescription": "Global top-10 insurer serving millions across Asia and North America",
       "companyWebsite": "client.asia.manulifeam.com"
@@ -39,7 +39,7 @@
       "startDate": "08/2021",
       "endDate": "07/2022",
       "current": false,
-      "description": "Led Angular-to-React micro-frontend migration with zero downtime across 3 production teams.\nImproved seller publishing efficiency by 40% by building A+ content marketplace features.\nBuilt 12+ mobile app features enabling end-to-end store management for sellers.\nReduced RN bundle size by 60% and loading time by 40% through optimization and dependency cleanup.",
+      "description": "Led an Angular-to-React micro-frontend migration with zero production downtime across three teams.\nBuilt A+ content marketplace features, improving seller publishing efficiency by 40%.\nDelivered 12+ mobile app features enabling end-to-end store management for sellers.",
       "address": "Chengdu, China",
       "companyWebsite": "newegg.com",
       "companyDescription": "Leading North American tech e-commerce platform",
@@ -54,9 +54,9 @@
       "startDate": "09/2017",
       "endDate": "06/2021",
       "current": false,
-      "description": "Contributed to the development of an e-commerce platform serving 2k+ daily users, including cart and inventory management modules.\nDeveloped a React-based attendance platform for 1,000+ employees, reducing HR manual workload by ~60%.",
+      "description": "Developed core e-commerce features, including cart and inventory management, for a platform serving 2,000+ daily users.\nBuilt a React-based attendance platform for 1,000+ employees, reducing HR manual workload by approximately 60%.",
       "address": "Guangzhou, China",
-      "techStack": "JavaScript , Vue, React, Redux, Webpack",
+      "techStack": "JavaScript, Vue, React, Redux, Webpack",
       "country": "",
       "workMode": ""
     }
@@ -83,7 +83,7 @@
     },
     {
       "id": "skill_1776411265085_skill_1776258848270_skill_1776178578032_skill_1776178562101_skill_1776178511666_skill_1776178503050_skill_1776178499233_skill_1776178480627_skill_1776178420776_skill_1776178388726_skill_1776178385970_0_0_0_0_0_0_0_0_0_1",
-      "name": "Github",
+      "name": "GitHub",
       "level": "intermediate",
       "category": "Tools",
       "order": 4
@@ -110,105 +110,99 @@
       "order": 4
     },
     {
-      "id": "skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_0",
-      "name": "Node.js",
-      "level": "intermediate",
-      "category": "Backend",
-      "order": 3
-    },
-    {
-      "id": "skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_1",
-      "name": "Express.js",
-      "level": "intermediate",
-      "category": "Backend",
-      "order": 3
-    },
-    {
-      "id": "skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_2",
-      "name": "Nest.js",
-      "level": "intermediate",
-      "category": "Backend",
-      "order": 3
-    },
-    {
-      "id": "skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_3",
-      "name": "REST APIs",
-      "level": "intermediate",
-      "category": "Backend",
-      "order": 3
-    },
-    {
-      "id": "skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_4",
-      "name": "MongoDB",
-      "level": "intermediate",
-      "category": "Backend",
-      "order": 3
-    },
-    {
-      "id": "skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_5",
-      "name": "Redis",
-      "level": "intermediate",
-      "category": "Backend",
-      "order": 3
-    },
-    {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_0",
       "name": "HTML5",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_1",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_1",
       "name": "CSS3",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_2",
-      "name": "JavaScript (ES6)",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_2",
+      "name": "JavaScript (ES6+)",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_3",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_3",
       "name": "TypeScript",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_4",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_4",
       "name": "React",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_5",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_5",
       "name": "React Native",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_6",
+      "id": "skill_1791700305001_skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_0_6",
       "name": "Redux",
       "level": "intermediate",
       "category": "Frontend",
       "order": 2
     },
     {
-      "id": "skill_1776691129938_skill_1776691061206_skill_1776411242585_skill_1776261973316_skill_1776259274302_skill_1776259265984_0_0_0_0_7",
-      "name": "Tailwind CSS",
+      "id": "skill_1791700406516_skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_0_0",
+      "name": "Node.js",
       "level": "intermediate",
-      "category": "Frontend",
-      "order": 2
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1791700406516_skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_0_1",
+      "name": "Express.js",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1791700406516_skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_0_2",
+      "name": "NestJS",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1791700406516_skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_0_3",
+      "name": "REST APIs",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
+    },
+    {
+      "id": "skill_1791700406516_skill_1776691091271_skill_1776258854458_skill_1776258842710_skill_1776178416031_skill_1776178353924_skill_1776177885686_skill_1776177862797_skill_1776177832322_0_0_0_0_0_0_0_4",
+      "name": "MongoDB",
+      "level": "intermediate",
+      "category": "Backend",
+      "order": 3
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "id": "proj_1791699965249",
+      "name": "PawHaven — Open-Source Project",
+      "description": "Building an open-source animal rescue platform with full-stack architecture and end-to-end product development.\n\nDesigning modular architecture and reusable components for maintainability and scalability.\n\nDeveloping an AI-powered engineering harness to automate development workflows, testing, and code review.",
+      "technologies": [],
+      "link": ""
+    }
+  ],
   "languages": [
     {
       "id": "1",
@@ -226,6 +220,6 @@
       "level": "A1"
     }
   ],
-  "summary": "Frontend-Heavy Full-Stack Developer with 9+ years of experience delivering large-scale international fintech applications using React and TypeScript. \nImproved investment conversion rates to 65% for 50k+ customers and built a 50+ component design system that reduced feature delivery time by 35%. \nFull-stack capable with Node.js backend development and distributed system delivery experience.",
-  "interests": "Outdoor hiking and trekking, enjoying long-distance trails and time in nature.\nInvolvement in stray animal rescue, supporting local volunteer activities and care efforts."
+  "summary": "Frontend-focused Full-Stack Engineer with 9+ years of experience building enterprise fintech and e-commerce applications.\nSpecialized in React and TypeScript, with hands-on Node.js backend experience in APIs and service integration.\nBuilding AI-powered engineering tools and full-stack products, focusing on maintainable architecture and delivery efficiency.",
+  "interests": "Outdoor hiking and trekking, with a passion for long-distance trails and spending time in nature.\nSupporting stray animal rescue through local volunteer activities and animal care."
 }
