@@ -32,6 +32,7 @@
 
 
 ## 面试准备
+[面试问题库（基于我的简历，HR + 技术 + BQ）](./interview-questions.md)
 [自我介绍](./self-introduction.md)
 [海外面试特点](https://mp.weixin.qq.com/s/vNGoO9OgT21yf-gAHSn3kQ)
 
