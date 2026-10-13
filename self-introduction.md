@@ -1,5 +1,15 @@
 # Self-introduction
 
+Hi, I'm Aoda. I'm a frontend-focused full-stack developer with over nine years of experience, mainly working with React and Node.js.
+
+In my previous role, I worked on a global wealth management platform in fintech. My daily work involved developing and maintaining the platform, troubleshooting production issues, and helping other teams ensure that fund investors and managers could invest smoothly.
+
+Over the past two years, I've also worked on AI engineering projects, including building agent teams based on business needs and developing useful skills.
+
+Outside work, my wife and I are both animal lovers, so I built PawHaven, a stray animal rescue platform. I hope it can help stray animals in the future. I used a modern tech stack and built a solid, scalable frontend and backend architecture.
+
+Now, I'm looking for a role in Germany related to my experience, where I can continue to grow in my field while also exploring new areas.
+
 ## English 
 Hi, I’m Aoda. I’m a frontend-heavy full-stack software engineer with over nine years of experience in software development.
 
