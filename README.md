@@ -27,7 +27,7 @@ Aoda's single entry point for preparing for software engineering roles in German
 
 ## Germany relocation preparation
 
-- [Degree recognition and relocation checklist](#relocation-checklist)
+- [Degree recognition and relocation preparation](./topics/relocation-preparation.md)
 
 ### Relocation checklist
 
