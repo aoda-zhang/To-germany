@@ -1,52 +1,8 @@
 # HR Interview
 
-# 德国面试问题库 / German Interview Question Bank
-
-
-**JSON 里的全部 8 个数字指标**（本文件已逐条覆盖对应问题）：
-
-| # | 指标 | 出处 | 对应问题 |
-|---|---|---|---|
-| 1 | 5 个微前端服务 | Manulife | 2.1 |
-| 2 | 样式问题 ↓≥30% | Manulife | 2.1 |
-| 3 | 新报告开发时间 ↓40% | Manulife | 2.2 |
-| 4 | 3000+ 基金经理 | Manulife | 2.4 |
-| 5 | 卖家发布效率 ↑40% | Newegg | 2.6 |
-| 6 | 12+ 移动端功能 | Newegg | 2.7 |
-| 7 | 2000+ 日活 | Hucai | 2.8 |
-| 8 | HR 工时 ↓60% | Hucai | 2.9 |
-
----
-
-| 公司 | 职位 | 技术栈 | 你的真实定位 |
-|---|---|---|---|
-| **Manulife** | Full-stack Software Engineer | TypeScript, React, Express.js, NestJS, MongoDB | ⭐ **唯一可以放心讲后端的地方** —— 你是全栈岗，前后端都能深讲 |
-| **Newegg** | Senior **Frontend** Software Engineer | JavaScript, TypeScript, React, React Native, Redux | **前端为主**。RN、迁移、组件都是前端话题。不要说「我们设计了微服务架构的后端」 |
-| **Hucai** | **Frontend** Software Engineer | JavaScript, Vue, React, Redux, Webpack | **纯前端**。购物车/库存的**一致性方案是后端实现的**，你负责的是前端交互和状态 |
-
-### 绝对不能说的话
-
-| 不能说 | 为什么 | 应该怎么说 |
-|---|---|---|
-| 「我们用乐观锁/事务消息表/幂等解决了库存一致性」（在 Hucai） | 你是前端，没参与后端设计 | 「一致性由后端团队实现，我负责的是客户端的状态管理和接口对接」 |
-| 在 Newegg/Newegg 时期讲后端架构设计 | 那是前端岗，技术栈里没有后端 | 讲前端：迁移、组件、RN、性能 |
-| 把 Manulife 的后端能力说成「我以前就会」 | 时间线对不上 | 「这是我在 Manulife 这两年开始做的，是有意识地从前端往全栈扩展」 |
-
-### 被问到不会的问题时，用这三句
-
-> **1. 诚实划界：** "That was implemented by the backend team — my part was the client integration and the UX around it."
->
-> **2. 说明现状：** "Deep backend work is something I picked up deliberately at Manulife over the last two years, with NestJS and MongoDB."
->
-> **3. 反问回去：** "I'd be interested to hear how your team handles that."
-
-⚠️ **德国面试非常看重诚实和边界感。** 说「这不是我做的，但我想知道你们怎么做」比硬装强得多 —— 后者一旦被问穿，**整场面试的可信度全部崩塌**。
-
----
-
 ## 1. HR 面试（HR Round）
 
-#### 0 [自我介绍](./self-introduction.md)
+#### 0 [自我介绍](../self-introduction.md)
 ### 1.1 为什么想来德国 / Why Germany
 
 **中文考察点：** 动机真实性。德国 HR 最怕中国候选人「拿 offer 跳板」，会追问「三个月你就走了怎么办」。
