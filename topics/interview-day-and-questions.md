@@ -57,10 +57,10 @@
 
 ## 相关文档
 
-- [简历制作注意点](./resume.md)
-- [自我介绍](./self-introduction.md)
-- [英语准备](./English.md)
-- [简历 Review](./review.md)
-- 权威简历数据：[fullStack-CV.json](./fullStack-CV.json)
+- [简历制作注意点](../resume.md)
+- [自我介绍](../self-introduction.md)
+- [英语准备](../English.md)
+- [简历 Review](../review.md)
+- 权威简历数据：[fullStack-CV.json](../fullStack-CV.json)
 
 ---
