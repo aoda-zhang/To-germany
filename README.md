@@ -1,45 +1,47 @@
-# To Germany
+# To Germany 🇩🇪
 
+Aoda's single entry point for preparing for software engineering roles in Germany.
 
-## Who you wantyou to be
-- 有一个可以解释清楚每段经历的CV
-- 知道html css js react的常规概念
-- 可以应对80%的UI interface的m面试
-- 查看BQ，可以应对基本常见的BQ面试
-- 知道德国大部分的大厂
-- 有linkedin维护好的newtwork
+**Start here.** Use this page as the project map; each Markdown file covers one topic. Keep answers truthful, consistent with the CV, and grounded in work you personally did.
 
+## Interview preparation
 
-## 机会卡准备
+| Topic | What to prepare |
+|---|---|
+| [HR interview](./topics/hr-interview.md) | Why Germany, why this company, work authorization, salary, notice period, language |
+| [Resume walkthrough](./topics/resume-walkthrough.md) | Explain each CV line, project decisions, personal ownership, metrics, and trade-offs |
+| [Behavioral questions (BQ)](./topics/behavioral-questions.md) | STAR stories, conflict, mistakes, feedback, teamwork, leadership, ambiguity |
+| [Frontend technical interview](./topics/frontend-technical.md) | React, TypeScript, micro-frontends, design systems, performance, CSS/browser |
+| [Backend technical interview](./topics/backend-technical.md) | Node.js, NestJS, MongoDB, REST APIs, security, system design |
+| [Advanced project deep dive](./topics/advanced-project-deep-dive.md) | High-intensity follow-up questions on core projects and AI engineering |
+| [Germany-specific topics](./topics/germany-specific.md) | German workplace culture, cross-cultural collaboration, probation |
+| [Interview-day checklist and questions](./topics/interview-day-and-questions.md) | Questions to ask interviewers, final checklist, practice resources |
+| [Networking and referrals](./topics/networking-and-referrals.md) | LinkedIn outreach, recruiter messages, referral follow-ups |
 
-1. ZAB 学历认证 （国内本科）
+## Core profile documents
 
-   - 大学毕业证 （直接学信网免费下载 PDF，过期时间设置最长）
-   - 大学学位证 （直接学信网免费下载 PDF，过期时间设置最长）
-   - 大学成绩单 （先直接在小红书上找个跑腿的，代你去你的大学教务处打印盖章的成绩单，简单省事，然后将这个成绩单上的成绩录入到学信网的大学成绩认证中，不要动歪心思改成绩，一定能查到）
-   - 高考成绩 （登录自己省份的考试院，上传身份证便可以查询，直接下载 PDF 即可）
-   - 高中毕业证（回老家教育局开证明，这个挺麻烦的。。。。。）
-   - 高中会考成绩 （一样的，回家教育局开证明，麻烦事啊。。。。）
+- [Self-introduction](./self-introduction.md) — English and Chinese versions.
+- [Resume guidance](./resume.md) — CV structure, tailoring, and review resources.
+- [CV source data](./fullStack-CV.json) — structured CV data used as a source of truth.
+- [English practice](./English.md) — speaking and listening practice.
 
-2. 动机信
+## Germany relocation preparation
 
-3. 语言学习证明
+- [Degree recognition and relocation preparation](./topics/relocation-preparation.md)
 
-## 简历准备
-[润指导](https://github.com/eliaszon/Programmers-Overseas-Job-Interview-Handbook?tab=readme-ov-file)
+### Relocation checklist
 
-[简历准备详情](./resume.md)
+- [ ] Check degree-recognition requirements and prepare the relevant documents.
+- [ ] Confirm the current work-authorization / EU Blue Card pathway for your situation.
+- [ ] Keep CV, LinkedIn, self-introduction, and interview answers consistent.
+- [ ] Track German-language progress and set a realistic next milestone.
+- [ ] Research each employer's product, customers, engineering practices, and role requirements before interviewing.
 
+## Working rules
 
-## 面试准备
-[面试问题库（基于我的简历，HR + 技术 + BQ）](./interview-questions.md)
-[自我介绍](./self-introduction.md)
-[海外面试特点](https://mp.weixin.qq.com/s/vNGoO9OgT21yf-gAHSn3kQ)
-
-[如何短时间内准备英文面试](https://x.com/VoidAsuka/status/1602968576272367617?t=boM_AayFPFmbPoIjKwVTWw&s=09)
-
-[mock面试](https://www.pramp.com)
-
-## 英语
-[英语准备详情](./English.md)
+1. **One topic per file.** Add new material to the relevant topic file and link it here.
+2. **The CV is the source of truth.** Do not invent ownership, technologies, project details, or metrics.
+3. **Separate facts from answer outlines.** Replace placeholders such as `[your real scope]` and `[your real metric]` with verified details before memorizing an answer.
+4. **Keep answers interview-ready.** Prefer concise spoken English, supported by concrete examples and follow-up details.
+5. **Update links here whenever a topic file is added, renamed, or removed.**
 
