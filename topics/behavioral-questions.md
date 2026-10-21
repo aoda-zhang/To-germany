@@ -2,6 +2,8 @@
 
 ## 5. 行为面试（BQ / Behavioural）
 
+> **Expanded practice bank:** [200 CV-tailored questions across 10 behavioural categories](./bq-question-bank.md). Use that file for category-by-category practice; use this guide for the existing STAR framework, story selection, and answer outlines.
+
 ### 5.0 先建故事库：7 个故事打天下（准备方法）
 
 **BQ 的真相：面试官不是在考你「这道题答过没有」，而是在几个固定维度收集信号** —— 动机、主动性、模糊环境下的自主性、坚持力、冲突处理、自我认知与成长、沟通（大厂通用评分维度，德国公司同样适用，来源见第 9 节 TIH rubrics）。
