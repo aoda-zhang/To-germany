@@ -11,7 +11,8 @@ Aoda's single entry point for preparing for software engineering roles in German
 | [HR interview](./topics/hr-interview.md) | Why Germany, why this company, work authorization, salary, notice period, language |
 | [Resume walkthrough](./topics/resume-walkthrough.md) | Explain each CV line, project decisions, personal ownership, metrics, and trade-offs |
 | [Behavioral questions (BQ)](./topics/behavioral-questions.md) | Existing BQ guide, STAR structure, and common behavioural dimensions |
-| [BQ story bank: five core stories](./topics/bq-story-bank.md) | Five CV-grounded stories, an expanded question bank, question-to-story mapping, and a fact-check checklist |
+| [BQ story bank: five core stories](./topics/bq-story-bank.md) | Five CV-grounded stories, story mapping, and a fact-check checklist |
+| [Expanded BQ question bank](./topics/bq-question-bank.md) | 200 CV-tailored prompts across 10 behavioural categories, with story anchors and preparation guidance |
 | [Frontend technical interview](./topics/frontend-technical.md) | React, TypeScript, micro-frontends, design systems, performance, CSS/browser |
 | [Backend technical interview](./topics/backend-technical.md) | Node.js, NestJS, MongoDB, REST APIs, security, system design |
 | [Advanced project deep dive](./topics/advanced-project-deep-dive.md) | High-intensity follow-up questions on core projects and AI engineering |
