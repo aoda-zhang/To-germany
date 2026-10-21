@@ -10,7 +10,8 @@ Aoda's single entry point for preparing for software engineering roles in German
 |---|---|
 | [HR interview](./topics/hr-interview.md) | Why Germany, why this company, work authorization, salary, notice period, language |
 | [Resume walkthrough](./topics/resume-walkthrough.md) | Explain each CV line, project decisions, personal ownership, metrics, and trade-offs |
-| [Behavioral questions (BQ)](./topics/behavioral-questions.md) | STAR stories, conflict, mistakes, feedback, teamwork, leadership, ambiguity |
+| [Behavioral questions (BQ)](./topics/behavioral-questions.md) | Existing BQ guide, STAR structure, and common behavioural dimensions |
+| [BQ story bank: five core stories](./topics/bq-story-bank.md) | Five CV-grounded stories, an expanded question bank, question-to-story mapping, and a fact-check checklist |
 | [Frontend technical interview](./topics/frontend-technical.md) | React, TypeScript, micro-frontends, design systems, performance, CSS/browser |
 | [Backend technical interview](./topics/backend-technical.md) | Node.js, NestJS, MongoDB, REST APIs, security, system design |
 | [Advanced project deep dive](./topics/advanced-project-deep-dive.md) | High-intensity follow-up questions on core projects and AI engineering |
@@ -44,4 +45,3 @@ Aoda's single entry point for preparing for software engineering roles in German
 3. **Separate facts from answer outlines.** Replace placeholders such as `[your real scope]` and `[your real metric]` with verified details before memorizing an answer.
 4. **Keep answers interview-ready.** Prefer concise spoken English, supported by concrete examples and follow-up details.
 5. **Update links here whenever a topic file is added, renamed, or removed.**
-
