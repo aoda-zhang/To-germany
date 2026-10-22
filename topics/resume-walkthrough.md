@@ -104,6 +104,47 @@ I learned that shared frontend foundations are as much about coordination as the
 
 ---
 
+
+### Q6. What is the difference between a design token and a component?
+
+**Answer (EN)**
+
+A design token represents a shared design decision, such as a color or spacing value. A component uses those design decisions to implement a piece of UI. Keeping the two concepts separate helps us update the visual foundation consistently without tying every design decision to one specific component.
+
+**参考回答（中文）**
+
+Design token 表示一项共享的设计决策，例如颜色或间距值；组件则使用这些设计决策来实现具体 UI。把两者分开，可以统一更新视觉基础，而不必把每项设计决策都绑定到某个具体组件。
+
+### Q7. How would you encourage multiple teams to adopt shared tokens?
+
+**Answer (EN)**
+
+I'd make the shared approach easier to use than maintaining local alternatives. That means clear naming, straightforward access to the tokens, examples, and a migration path that fits each application's release constraints. I'd also agree on ownership so teams know where to propose changes and how compatibility is managed.
+
+**参考回答（中文）**
+
+我会让使用共享方案比维护各自的实现更简单。这需要清晰的命名、方便的接入方式、示例，以及符合各应用发布约束的迁移路径。我也会明确维护责任，让团队知道如何提出变更，以及如何管理兼容性。
+
+### Q8. What would you do if one service needed a different visual style?
+
+**Answer (EN)**
+
+I'd first check whether the difference is a legitimate product requirement or simply an inconsistency. If it is a real requirement, the shared system should support a deliberate variation rather than forcing every service to look identical. The aim is consistent design rules with controlled flexibility, not uniformity at any cost.
+
+**参考回答（中文）**
+
+我会先确认这种差异是合理的产品需求，还是无意产生的不一致。如果确实有业务需要，共享系统就应该支持有意识的变化，而不是强迫所有服务完全相同。目标是保持设计规则一致，同时允许受控的灵活性，而不是不计代价地追求统一。
+
+### Q9. What would you do differently next time?
+
+**Answer (EN)**
+
+I'd make adoption and measurement part of the plan from the beginning. A shared token system needs more than an implementation; teams need a clear migration path, and the project needs a consistent way to track styling issues before and after adoption. That would make both rollout and the reported impact easier to evaluate.
+
+**参考回答（中文）**
+
+下次我会从一开始就把推广和效果衡量纳入计划。共享 token 系统不仅需要实现本身，团队还需要清晰的迁移路径，项目也需要一致的方式来比较采用前后的样式问题。这样可以更好地评估推广过程和最终效果。
+
 ## 3. Manulife — Refactoring a legacy PDF report module
 
 **CV bullet:** Refactored a legacy PDF report module with React, reducing new report development time by 40%.
@@ -159,6 +200,47 @@ The direct impact was faster delivery of new reports. When the engineering effor
 最直接的业务影响是新报表交付更快。每个新报表所需的工程工作量降低后，团队就能更高效地响应报表需求，而不必花费那么多时间理解和扩展旧代码。简历记录的改善幅度是新报表开发时间缩短了 40%。
 
 ---
+
+
+### Q6. How did you decide what to refactor first?
+
+**Answer (EN)**
+
+I'd prioritize the parts that made new report work repetitive or difficult to extend, while keeping existing report behavior stable. The aim was not to rewrite code just to make it look newer; it was to remove friction from the workflow that engineers used whenever a new report was required.
+
+**参考回答（中文）**
+
+我会优先处理那些导致新增报表工作重复、难以扩展的部分，同时保持现有报表行为稳定。重构的目的不是单纯让代码看起来更新，而是减少工程师每次开发新报表时遇到的阻力。
+
+### Q7. How would you test a refactor when the old behavior is poorly documented?
+
+**Answer (EN)**
+
+I'd first collect representative existing reports and use them as examples of expected behavior. Then I'd compare the output and important user-visible behavior before and after the changes, and ask the relevant stakeholders to confirm cases where the expected result isn't obvious. That gives the team a practical baseline even when the documentation is incomplete.
+
+**参考回答（中文）**
+
+我会先收集有代表性的现有报表，把它们作为预期行为的样例。之后对比改动前后的输出和关键用户可见行为；对于预期结果不明确的情况，再请相关人员确认。即使文档不完整，这也能为团队建立一个可操作的基线。
+
+### Q8. How do you explain the 40% improvement to a non-technical stakeholder?
+
+**Answer (EN)**
+
+I'd explain that the improvement was about the engineering time needed to build a new report, not about PDF generation speed. The refactored module made the development process more efficient, so new reporting requirements could be implemented with less effort. I'd then show the actual before-and-after measurement used by the team if the stakeholder wanted the calculation.
+
+**参考回答（中文）**
+
+我会解释，这个提升指的是开发新报表所需的工程时间，而不是 PDF 生成速度。模块重构提高了开发流程的效率，因此实现新的报表需求所需的工作量更少。如果对方希望了解计算方式，我会提供团队实际使用的前后对比数据。
+
+### Q9. What is the risk of over-refactoring a legacy module?
+
+**Answer (EN)**
+
+The risk is introducing broad changes that don't create enough value to justify the regression risk. I prefer to connect each refactoring step to a concrete maintenance or delivery problem, preserve behavior that users depend on, and validate changes incrementally. That keeps the work focused on outcomes rather than code aesthetics alone.
+
+**参考回答（中文）**
+
+风险在于做了范围很大的改动，却没有创造足以抵消回归风险的价值。我倾向于让每一步重构都对应明确的维护或交付问题，保留用户依赖的行为，并逐步验证改动。这样可以让重构聚焦于结果，而不只是代码形式。
 
 ## 4. Manulife — Component-library architecture and AI-assisted review
 
@@ -216,6 +298,47 @@ I'd look at whether teams can adopt the components easily, whether the component
 
 ---
 
+
+### Q6. How do you avoid making components too abstract?
+
+**Answer (EN)**
+
+I start from recurring use cases rather than trying to predict every possible future requirement. A component should have a clear purpose and a small, understandable API. If two use cases only look similar but behave differently, I would rather keep the distinction clear than force them into one component with many special-case props.
+
+**参考回答（中文）**
+
+我会从反复出现的真实使用场景出发，而不是试图预先覆盖所有未来需求。组件应该有明确目的和易理解的 API。如果两个场景只是看起来相似、实际行为却不同，我宁愿保留清晰的区别，也不会强行合并成带有大量特殊属性的组件。
+
+### Q7. How should breaking changes in a component library be handled?
+
+**Answer (EN)**
+
+I'd make the impact explicit before releasing the change. That includes identifying affected consumers, documenting what changed, providing a migration path where possible, and coordinating the release so dependent applications can update safely. A shared library needs to treat compatibility as part of its product, not as an afterthought.
+
+**参考回答（中文）**
+
+发布变更前，我会明确说明它的影响范围，包括识别受影响的使用方、记录变更内容、尽可能提供迁移路径，并协调发布，让依赖应用能够安全升级。共享库应该把兼容性当作产品的一部分，而不是事后才考虑的问题。
+
+### Q8. What should AI review check, and what should remain a human decision?
+
+**Answer (EN)**
+
+AI can help identify potential issues, inconsistent patterns, or places that deserve a closer look. A human still needs to judge whether a finding is correct, whether it matters in the product context, and whether the proposed change is safe. I would not let AI review replace ownership, tests, or the normal approval process.
+
+**参考回答（中文）**
+
+AI 可以帮助发现潜在问题、不一致的模式，或值得进一步检查的地方。但人仍然需要判断问题是否真实、在产品语境下是否重要，以及建议的修改是否安全。我不会让 AI review 取代责任归属、测试或正常的审批流程。
+
+### Q9. How would you get developers to trust a shared component library?
+
+**Answer (EN)**
+
+Trust comes from predictable behavior, useful documentation, and responsive maintenance. Developers need to know what a component is designed to do, how to use it, and what to expect when it changes. I'd also treat bug reports and feedback as part of maintaining the library, rather than expecting consumers to work around problems themselves.
+
+**参考回答（中文）**
+
+信任来自可预期的行为、有用的文档和及时的维护响应。开发人员需要知道组件的设计目的、使用方式，以及组件变更会带来什么影响。我也会把缺陷报告和反馈视为维护库的一部分，而不是让使用方自行绕过问题。
+
 ## 5. Manulife — Fund-trading modules for a large financial platform
 
 **CV bullet:** Collaborated on fund trading modules supporting 3,000+ fund managers and millions of investors.
@@ -262,6 +385,47 @@ My CV says I collaborated on these modules, rather than claiming that I led the 
 
 ---
 
+
+### Q5. What does a good user experience mean in a financial workflow?
+
+**Answer (EN)**
+
+It means users can understand what action they are taking, what information is required, and what state the operation is in. Clear validation and status feedback are especially important because users need confidence that the system has handled their request correctly. I see usability and correctness as closely connected in financial products.
+
+**参考回答（中文）**
+
+这意味着用户能够理解自己正在执行什么操作、需要哪些信息，以及操作目前处于什么状态。清晰的校验和状态反馈尤其重要，因为用户需要确信系统正确处理了请求。在金融产品中，我认为易用性与正确性紧密相关。
+
+### Q6. How do you work with product or domain experts?
+
+**Answer (EN)**
+
+I try to clarify the business meaning behind a requirement instead of translating the first description directly into code. I ask about expected outcomes, exceptions, and how the behavior should be explained to users. This is particularly important in financial products, where a small misunderstanding in a rule can lead to a misleading interface or incorrect workflow.
+
+**参考回答（中文）**
+
+我会先弄清需求背后的业务含义，而不是把最初的描述直接翻译成代码。我会询问预期结果、例外情况，以及应该如何向用户解释行为。这在金融产品中尤其重要，因为对规则的细微误解都可能造成误导性的界面或错误的流程。
+
+### Q7. How do you approach errors in a transaction-related UI?
+
+**Answer (EN)**
+
+I want the interface to distinguish between a request that is still processing, one that succeeded, and one that failed. The user should not be left guessing whether an action went through. I would follow the backend's actual response and status model, show clear feedback, and avoid presenting an uncertain result as a confirmed success.
+
+**参考回答（中文）**
+
+我希望界面能够区分仍在处理中、已经成功和已经失败的请求，不能让用户猜测操作到底有没有生效。我会遵循后端实际的响应和状态模型，提供清晰反馈，避免把不确定的结果显示成已确认成功。
+
+### Q8. What did working on a large financial platform teach you?
+
+**Answer (EN)**
+
+It reinforced the importance of domain understanding, careful validation, and clear responsibility across teams. In a large product, a feature rarely exists in isolation; it depends on business rules, APIs, and other parts of the platform. I learned to ask more questions about the full workflow before focusing on the implementation details.
+
+**参考回答（中文）**
+
+这段经历让我更加重视业务理解、谨慎校验，以及团队之间清晰的职责划分。在大型产品中，一个功能很少是孤立存在的，它依赖业务规则、API 和平台其他部分。我学会了在关注实现细节前，先多了解整个业务流程。
+
 ## 6. Manulife — AI tools for development, onboarding, and business-logic discovery
 
 **CV bullet:** Built AI-powered tools to accelerate development, improve team onboarding, and help BAs understand historical business logic.
@@ -307,6 +471,47 @@ The most important lesson is that usefulness depends on workflow integration and
 最重要的经验是，工具是否有用取决于它能否融入工作流程并建立信任，而不只是模型能否生成文本。工具需要解决真实问题、适应团队现有的工作方式，并让结果容易验证。对于工程任务来说，快速但不可靠的答案可能反而增加工作量。
 
 ---
+
+
+### Q5. Why not just ask engineers to write more documentation?
+
+**Answer (EN)**
+
+Documentation is still important, and I wouldn't replace it with AI. The challenge is that documentation can be incomplete or become outdated as a codebase changes. AI-powered exploration can help people navigate existing code and find relevant context, while engineers still need to verify the explanation and maintain authoritative documentation for important behavior.
+
+**参考回答（中文）**
+
+文档仍然很重要，我不会用 AI 取代文档。问题在于，随着代码库变化，文档可能不完整或逐渐过时。AI 辅助探索可以帮助人们浏览现有代码并找到相关背景，但工程师仍然需要验证解释，并为重要行为维护权威文档。
+
+### Q6. How would you evaluate whether an AI tool actually saves time?
+
+**Answer (EN)**
+
+I'd evaluate it against a real task, such as finding the code behind an existing business rule or helping a new teammate understand a feature. I'd compare the time and effort needed with and without the tool, while also checking whether the answers are accurate enough to be useful. Faster output isn't a success if people spend the saved time correcting misleading answers.
+
+**参考回答（中文）**
+
+我会用真实任务来评估，例如查找某条既有业务规则对应的代码，或帮助新成员理解某项功能。我会比较使用和不使用工具时所需的时间与精力，同时检查答案是否足够准确。即使生成速度更快，如果大家还要花时间纠正误导性答案，也不能算成功。
+
+### Q7. What information should an AI engineering tool be allowed to use?
+
+**Answer (EN)**
+
+It should use the project context that is appropriate for the task and follow the team's access and data-handling rules. The tool should not expose information to people who aren't authorized to see it, and it should make the source of important claims clear. Trust and access control are part of the design, not something to add after the tool works.
+
+**参考回答（中文）**
+
+工具应该只使用任务所需且符合团队访问与数据处理规则的项目上下文。它不能把信息暴露给没有权限的人，并且应尽可能说明重要结论的来源。信任和访问控制应当从设计阶段就考虑，而不是工具可用之后再补上。
+
+### Q8. What is the role of an engineer when AI can explain code?
+
+**Answer (EN)**
+
+The engineer still needs to verify the explanation, understand the system's constraints, and make the final decision. AI can reduce the time spent searching and summarizing, but it doesn't take responsibility for correctness or consequences. I see it as a way to help engineers focus more time on judgment and implementation rather than repetitive discovery work.
+
+**参考回答（中文）**
+
+工程师仍然需要验证解释、理解系统约束，并做出最终决策。AI 可以减少搜索和总结所需的时间，但不会替人承担正确性和后果责任。我把它看作一种辅助方式，让工程师把更多时间投入判断和实现，而不是重复的信息搜寻。
 
 ## 7. Newegg — Angular-to-React micro-frontend migration
 
@@ -374,6 +579,47 @@ I'd make the integration and validation plan explicit as early as possible. In a
 
 ---
 
+
+### Q7. What makes a migration across several teams difficult?
+
+**Answer (EN)**
+
+The challenge is not only converting code; teams also need to agree on how their parts fit together and how changes are released. Without clear ownership and integration expectations, each team can make locally reasonable choices that don't work well together. I would treat communication and integration planning as core engineering work throughout the migration.
+
+**参考回答（中文）**
+
+难点不只是转换代码，团队还需要就各自负责的部分如何组合、变更如何发布达成一致。如果责任和集成预期不清晰，每个团队都可能做出局部合理、整体却无法很好协作的选择。我会把沟通和集成规划视为迁移过程中核心的工程工作。
+
+### Q8. How do you decide whether to migrate or rewrite a feature?
+
+**Answer (EN)**
+
+I'd compare the cost and risk of keeping the existing feature, incrementally migrating it, or rewriting it. The decision depends on how much value the rewrite creates, how much working behavior would need to be recreated, and how safely the change can be delivered. For a production product, I would avoid a rewrite simply because the technology is newer.
+
+**参考回答（中文）**
+
+我会比较保留现有功能、逐步迁移和完全重写的成本与风险。决策取决于重写能带来多少价值、需要重新实现多少现有行为，以及变更能否安全交付。对于生产产品，我不会仅仅因为新技术更新就选择重写。
+
+### Q9. How would you detect regressions during a migration?
+
+**Answer (EN)**
+
+I'd define the important user journeys and expected behavior before changing them, then validate those journeys as the migration progresses. I'd combine automated checks where they are available with focused manual verification for critical flows. The key is to discover differences early, while the change is still small enough to understand and correct.
+
+**参考回答（中文）**
+
+我会在改动前明确重要用户流程和预期行为，并在迁移过程中持续验证这些流程。在可行的地方结合自动化检查，对关键流程进行有针对性的手动验证。关键是尽早发现差异，让问题还处于容易理解和修复的范围内。
+
+### Q10. What did the zero-downtime result require from the team?
+
+**Answer (EN)**
+
+It required the migration to be managed as a production change, not just a frontend rewrite. Compatibility, integration, testing, and release coordination all mattered because users needed the product to remain available. The result depended on the team keeping those concerns in view throughout the transition.
+
+**参考回答（中文）**
+
+这要求团队把迁移当作一次生产变更来管理，而不只是前端重写。兼容性、集成、测试和发布协调都很重要，因为用户需要产品持续可用。这个结果依赖团队在整个过渡期间始终关注这些问题。
+
 ## 8. Newegg — A+ content marketplace features
 
 **CV bullet:** Built A+ content marketplace features, improving seller publishing efficiency by 40%.
@@ -420,6 +666,47 @@ I focused on making the workflow clear and predictable. Seller tools often invol
 
 ---
 
+
+### Q5. How would you handle a long or complex publishing form?
+
+**Answer (EN)**
+
+I'd break the workflow into understandable sections, make required information clear, and validate fields close to where users enter them. I would also preserve useful input when validation fails and make the next action obvious. The goal is to help sellers complete the task correctly without making them guess what the system expects.
+
+**参考回答（中文）**
+
+我会把复杂流程拆分成容易理解的部分，明确标出必填信息，并尽量在用户输入的位置附近进行校验。校验失败时，也应该保留有用的输入内容，并清楚提示下一步操作。目标是帮助卖家正确完成任务，而不是让他们猜系统需要什么。
+
+### Q6. How do you balance feature delivery speed with quality?
+
+**Answer (EN)**
+
+I start by clarifying the core seller workflow and implementing the essential behavior first. I still account for validation, loading and error states, and regression checks because these directly affect whether sellers can finish the task. Moving quickly is useful only if the feature remains reliable in real use.
+
+**参考回答（中文）**
+
+我会先明确卖家的核心操作流程，优先实现必要行为。同时也会考虑校验、加载和错误状态，以及回归检查，因为这些会直接影响卖家能否完成任务。只有功能在真实使用中依然可靠，快速交付才有意义。
+
+### Q7. What would you do if the business asked for a last-minute change?
+
+**Answer (EN)**
+
+I'd first clarify what problem the change is meant to solve and whether it affects the existing publishing flow. Then I'd assess the impact on implementation, testing, and release risk, and agree with the product team on what can safely fit into the current delivery. I wouldn't silently skip validation just to meet a deadline.
+
+**参考回答（中文）**
+
+我会先确认临时变更要解决什么问题，以及它是否会影响现有发布流程。然后评估它对实现、测试和发布风险的影响，并与产品团队确认当前交付周期内哪些内容能够安全完成。我不会为了赶进度而默默跳过验证。
+
+### Q8. What did this work teach you about e-commerce products?
+
+**Answer (EN)**
+
+Seller-facing features affect both the seller's workflow and the quality of information customers see. A small usability problem can create extra work for sellers or lead to incomplete product content. I learned to think about the whole workflow and the business outcome, rather than evaluating a feature only by whether the interface is implemented.
+
+**参考回答（中文）**
+
+面向卖家的功能既会影响卖家自己的工作流程，也会影响消费者看到的信息质量。一个小的易用性问题就可能增加卖家的工作量，或导致商品内容不完整。我学会了从完整流程和业务结果来思考，而不只判断界面是否实现了。
+
 ## 9. Newegg — React Native mobile features
 
 **CV bullet:** Delivered 12+ mobile app features enabling end-to-end store management for sellers.
@@ -465,6 +752,47 @@ For seller store management, the interface needs to make important actions easy 
 对于卖家店铺管理，界面需要让用户在较小的屏幕上也能轻松找到并完成重要操作。我会关注清晰的导航、精简的信息呈现、操作后的有效反馈，以及加载和错误状态的处理。目标是让常用任务真正适合移动端，而不是简单缩小桌面界面。
 
 ---
+
+
+### Q5. How do you decide what should be shared across iOS and Android?
+
+**Answer (EN)**
+
+I'd share business logic and UI behavior where the platforms have the same requirements, while keeping platform-specific differences explicit. Trying to force every detail into a single abstraction can make the code harder to maintain. The goal is to reuse what is genuinely common without hiding meaningful platform differences.
+
+**参考回答（中文）**
+
+对于两个平台需求一致的业务逻辑和 UI 行为，我会尽量复用；平台特有的差异则应明确保留。试图把所有细节都塞进同一个抽象，反而可能增加维护难度。目标是复用真正共通的部分，同时不掩盖有意义的平台差异。
+
+### Q6. How would you investigate a slow React Native screen?
+
+**Answer (EN)**
+
+I'd first reproduce the problem and identify whether it comes from rendering, data loading, or an interaction with native functionality. Then I'd measure the relevant part rather than guessing, and narrow the change to the actual bottleneck. I'd also recheck the user journey after the fix to make sure the improvement doesn't introduce a regression.
+
+**参考回答（中文）**
+
+我会先复现问题，判断瓶颈来自渲染、数据加载，还是与原生功能的交互。然后针对相关环节进行测量，而不是凭感觉猜测，并把改动范围缩小到真正的瓶颈。修复后还会重新检查用户流程，确认没有引入回归。
+
+### Q7. How do you handle platform-specific behavior?
+
+**Answer (EN)**
+
+I try to keep platform-specific behavior explicit and test it on the platforms that matter. Shared code is valuable, but it doesn't remove the need to verify differences in navigation, permissions, layout, and native integrations. I would rather isolate a small platform-specific implementation than make the shared code difficult to understand.
+
+**参考回答（中文）**
+
+我会明确处理平台特有行为，并在相关平台上进行验证。共享代码很有价值，但它并不意味着可以忽略导航、权限、布局和原生集成方面的差异。我宁愿隔离一小部分平台特定实现，也不愿让共享代码变得难以理解。
+
+### Q8. What does delivering more than twelve features demonstrate?
+
+**Answer (EN)**
+
+It shows that I contributed to a range of real mobile product functionality, rather than only building a prototype or one isolated screen. Those features supported the seller store-management experience. I would choose one or two representative features from my actual work to explain the requirements, implementation, and trade-offs in more detail.
+
+**参考回答（中文）**
+
+这说明我参与交付了一系列真实的移动端产品功能，而不只是做原型或单独的一个页面。这些功能共同支持卖家的店铺管理体验。面试时，我会从实际工作中挑选一到两个有代表性的功能，进一步解释需求、实现和技术取舍。
 
 ## 10. Hucai — E-commerce cart and inventory-management frontend
 
@@ -522,6 +850,47 @@ The platform served more than 2,000 daily users, according to my CV. That contex
 
 ---
 
+
+### Q6. Why shouldn't the frontend be the source of truth for stock?
+
+**Answer (EN)**
+
+The browser cannot reliably coordinate inventory across multiple users and requests. The backend needs to enforce the authoritative inventory rules, while the frontend presents the current result and guides the user through the next step. That separation prevents the UI from promising availability that the server cannot guarantee.
+
+**参考回答（中文）**
+
+浏览器无法可靠地协调多个用户和请求之间的库存状态。后端需要执行权威的库存规则，前端则负责呈现当前结果并引导用户进行下一步操作。这样的职责分离可以避免界面承诺服务端无法保证的库存状态。
+
+### Q7. How do you prevent duplicate user actions from creating a confusing UI?
+
+**Answer (EN)**
+
+At the UI level, I'd give clear feedback when an action is being processed and avoid encouraging repeated submissions while the request is pending. I would still rely on the backend to enforce correctness for operations that must not be duplicated. The frontend can improve the interaction, but it cannot replace server-side safeguards.
+
+**参考回答（中文）**
+
+在 UI 层，我会在操作处理中提供清晰反馈，并避免请求尚未完成时鼓励用户重复提交。对于不能重复执行的操作，我仍然依赖后端保证正确性。前端可以改善交互，但不能替代服务端的保护机制。
+
+### Q8. How would you test cart and inventory edge cases?
+
+**Answer (EN)**
+
+I'd cover the main states: adding and removing items, updating quantities, receiving an API error, and discovering that an item is no longer available. I'd verify both the displayed state and the recovery path, so users aren't left with stale information or a blocked workflow. The exact automated tests would depend on the test setup used in the project.
+
+**参考回答（中文）**
+
+我会覆盖主要状态，包括添加和移除商品、更新数量、收到 API 错误，以及商品变为无货的情况。我会同时验证界面显示的状态和后续恢复流程，避免用户看到过期信息或被卡在流程中。具体自动化测试会根据项目实际使用的测试环境来确定。
+
+### Q9. How did you work with backend engineers on these features?
+
+**Answer (EN)**
+
+I'd align on the API contract, expected response states, and how errors should be represented to the client. That helps the frontend handle normal and exceptional cases consistently. Because inventory rules belonged to the backend, collaboration was important to ensure the UI reflected the server's actual behavior rather than making assumptions of its own.
+
+**参考回答（中文）**
+
+我会与后端工程师对齐 API 契约、预期响应状态，以及错误应该如何反馈给客户端。这样前端才能一致地处理正常情况和异常情况。由于库存规则由后端负责，双方协作很重要，可以确保 UI 反映服务端的真实行为，而不是自行假设。
+
 ## 11. Hucai — React attendance platform
 
 **CV bullet:** Built a React-based attendance platform for 1,000+ employees, reducing HR manual workload by approximately 60%.
@@ -567,6 +936,47 @@ An internal tool has to fit the way people actually work. It isn't enough for th
 内部工具必须符合用户真实的工作方式。界面在技术上能运行还不够，流程需要清晰，信息也必须对依赖它的人有用。我学到要关注 UI 背后的实际业务流程，以及工具应该给用户带来的具体帮助。
 
 ---
+
+
+### Q5. Why was automation valuable for HR?
+
+**Answer (EN)**
+
+Attendance administration can involve repeated collection, checking, and summarizing of employee information. Automating parts of that workflow reduces repetitive manual work and makes the process easier to manage. The platform's reported impact was an approximately 60% reduction in HR's manual workload.
+
+**参考回答（中文）**
+
+考勤管理可能涉及反复收集、核对和汇总员工信息。将流程中的一部分自动化，可以减少重复的人工操作，让管理更容易。这个平台记录的效果是 HR 人工工作量减少了约 60%。
+
+### Q6. What would you do if employees reported incorrect attendance data?
+
+**Answer (EN)**
+
+I'd first reproduce the issue and determine whether it came from the input data, the business rules, or how the frontend displayed the result. I'd then work with the relevant owner to correct the cause and make sure the interface communicates the state clearly. For an attendance system, users need a way to understand discrepancies rather than simply seeing a number that looks wrong.
+
+**参考回答（中文）**
+
+我会先复现问题，判断原因来自输入数据、业务规则，还是前端展示方式。然后与对应负责人一起修正问题，并确保界面能清晰表达当前状态。对于考勤系统，用户需要理解数据差异的原因，而不只是看到一个看起来不对的数字。
+
+### Q7. How do you design an internal tool for different user groups?
+
+**Answer (EN)**
+
+I'd identify the tasks each group needs to complete and make the most common actions clear for that role. Employees and HR may look at the same attendance data for different reasons, so the interface should support those workflows without overwhelming users with irrelevant information. I'd validate the design with the people who actually use the system.
+
+**参考回答（中文）**
+
+我会先确认不同用户群体需要完成的任务，并让每个角色最常用的操作足够清晰。员工和 HR 可能出于不同目的查看同一份考勤数据，因此界面需要支持各自的流程，避免展示过多无关信息。我也会向实际使用系统的人确认设计是否符合需求。
+
+### Q8. What does the 1,000+ employee scale change about the design?
+
+**Answer (EN)**
+
+It means the workflow needs to work consistently for many people, not just for a small pilot group. Clear states, predictable behavior, and maintainable code become important because even a small usability problem can affect many users. It also makes it important to understand the operational process rather than designing the UI in isolation.
+
+**参考回答（中文）**
+
+这意味着流程必须能够稳定服务大量用户，而不只是一个小规模试用群体。清晰的状态、可预期的行为和可维护的代码都很重要，因为即使很小的易用性问题也可能影响很多人。同时，这也要求我们理解实际业务流程，而不是孤立地设计 UI。
 
 ## 12. Education — Transitioning from journalism to software development
 
