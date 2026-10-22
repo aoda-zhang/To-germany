@@ -1,31 +1,39 @@
 # Self-introduction
 
-## Short version
+Hi, I'm Aoda. I'm a frontend-focused full-stack developer with over nine years of experience, mainly working with React and Node.js.
 
-Hi, I'm Aoda. I'm a frontend-focused full-stack software engineer with over nine years of experience. I started in frontend development and have built strong experience with React and TypeScript, while gradually taking on more backend work with Node.js, Express, and NestJS.
+In my previous role, I worked on a global wealth management platform in fintech. My daily work involved developing and maintaining the platform, troubleshooting production issues, and helping other teams ensure that fund investors and managers could invest smoothly.
 
-I'm currently at Manulife, where I work on financial products, shared components, and backend services. I've also worked on projects such as a React component library with more than 50 components that helped reduce feature delivery time by 35%.
+Over the past two years, I've also worked on AI engineering projects, including building agent teams based on business needs and developing useful skills.
 
-Outside work, I'm building PawHaven, an open-source platform for stray animal rescue, because my wife and I both love animals. It has also given me opportunities to try technologies I don't often use at work, learn new skills, and apply some of that learning in my day-to-day work.
+Outside work, my wife and I are both animal lovers, so I built PawHaven, an open-source stray animal rescue platform. It has also given me the chance to try technologies I don't often get to use at work, learn new skills, and apply some of what I've learned back at work.
 
-I'm now looking for a frontend-heavy full-stack role in Germany where I can contribute my frontend experience and continue growing across the stack.
+Now, I'm looking for a role in Germany related to my experience, where I can continue to grow in my field while also exploring new areas.
 
 ## English
 
-Hi, I'm Aoda. I've been working in software development for over nine years. I started my career as a frontend developer and gradually grew into a senior frontend role. My strongest experience is in React and TypeScript, and in recent years I've also taken on more backend responsibilities using Node.js, Express, and NestJS. I enjoy understanding how the different parts of a product fit together, not just implementing the UI.
+Hi, I’m Aoda. I’m a frontend-heavy full-stack software engineer with over nine years of experience in software development.
 
-I'm currently working at Manulife on financial products. My work includes building frontend features, improving shared components, and contributing to backend services. One example is a React component library with more than 50 components, which helped reduce feature delivery time by 35%. I've also worked on improving shared modules and making development and delivery more efficient.
+I first came into contact with software development at university, and that was actually the moment I decided that this would be my career. What attracted me was the process of digging into a problem, understanding how things work, and then turning an idea into something real and useful. There was something almost magical about it, and I’ve enjoyed that process ever since.
 
-Outside work, I'm building PawHaven, an open-source platform for stray animal rescue, because my wife and I both love animals. The project gives me room to experiment with technologies and development approaches that I don't always get to try in my day-to-day role. I've learned new skills by building it end to end, and I've been able to apply some of that experience back at work.
+Since then, I’ve deliberately built my career step by step. I started as a frontend developer, grew into a senior frontend engineer, and over the past few years, I’ve expanded into backend development with Node.js, Express, and NestJS. My long-term goal has always been to move from focusing mainly on the frontend to becoming a full-stack engineer who can take ownership of the entire software development lifecycle, from frontend and backend to architecture and delivery.
 
-I'm now looking for a frontend-heavy full-stack role in Germany. I can bring a strong frontend background and practical product-development experience, while continuing to grow in backend development, architecture, and end-to-end ownership.
+In my current role at Manulife, I work on large-scale financial products and contribute across frontend, backend, architecture, and developer tooling. Some of my key achievements include leading a React component library with more than 50 components, which reduced feature delivery time by 35%, building a fund eligibility module supporting over 50,000 customers, and refactoring a shared backend PDF generation module that reduced report delivery time by 60%.
+
+I’m also a lifelong learner. I enjoy exploring new technologies and constantly looking for better ways to build software. Outside of work, I’m building PawHaven, an open-source platform for stray animal rescue. My wife and I both love animals, and through this project I’ve had the chance to experiment with technologies and approaches I don’t always get to use at work. I’ve learned new skills from building it and have been able to apply some of that learning to my work.
+
+At this stage of my career, I’m looking for a frontend-heavy full-stack role where I can leverage my strong frontend background while taking more ownership of backend, architecture, and the overall product lifecycle. That’s the direction I’ve been deliberately working toward, and I believe it’s a strong match for this role.
 
 ## 中文
 
-你好，我叫 Aoda，有超过 9 年的软件开发经验。我从前端开发起步，逐渐成长为高级前端工程师。我的核心经验主要集中在 React 和 TypeScript，近几年也逐步承担了更多后端职责，使用过 Node.js、Express 和 NestJS。我不仅关注界面实现，也喜欢理解一个产品的不同部分是如何协作的。
+你好，我叫 Aoda，是一名以前端为核心的全栈软件工程师，有超过 9 年的软件开发经验。
 
-目前我在 Manulife 参与金融产品开发，工作内容包括前端功能、共享组件以及部分后端服务。例如，我参与建设过一个包含 50 多个组件的 React 组件库，帮助将功能交付时间缩短了 35%。我也参与过共享模块的优化，提升开发和交付效率。
+我第一次在大学接触到软件开发的时候，就确定这会成为我一生的职业。真正吸引我的，是那种不断钻研一个问题、理解它背后的原理，然后把自己的想法真正做出来的过程。对我来说，软件开发有一种近乎“魔力”的感觉——你可以把一个想法变成真实的、能够被人使用的东西，而这种感觉一直让我非常享受。
 
-工作之外，我在开发一个开源的流浪动物救助平台 PawHaven，因为我和妻子都很喜欢动物。这个项目让我有机会尝试一些日常工作中不一定能接触到的技术和开发方式。在端到端构建产品的过程中，我学到了新的技能，也把其中一些经验应用到了实际工作中。
+从那以后，我就有意识地建立了自己的职业发展路径。我最开始是一名前端开发工程师，后来成长为高级前端工程师，而过去几年，我又逐步扩展到 Node.js、Express 和 NestJS 等后端开发。我的长期目标一直很明确，就是从最初主要负责前端，逐步成长为真正的全栈工程师，能够从前端、后端、架构到交付，对整个软件开发生命周期负责。
 
-现阶段，我希望在德国寻找一个以前端为核心的全栈岗位。我可以发挥自己扎实的前端经验和实际产品开发能力，同时继续提升后端开发、系统架构以及端到端交付方面的能力。
+目前我在 Manulife 负责大型金融产品的开发，工作范围覆盖前端、后端、架构以及开发工具。在过去的项目中，我主导建设了一个 50 多个组件的 React 组件库，将功能交付时间缩短了 35%；开发了面向 5 万多客户的基金资格模块；同时重构了共享的 PDF 生成模块，将报告交付时间降低了 60%。
+
+我也是一个终身学习者，很喜欢探索新的技术，并不断思考如何把软件做得更好、更高效。工作之外，我还在开发一个针对流浪动物救助的开源平台 PawHaven。我和妻子都很喜欢动物，而这个项目也让我有机会尝试一些工作中不常有机会实践的技术和开发方式，学到新的技能，并把其中一些经验应用到工作中。
+
+现阶段，我希望寻找一个以前端为核心的全栈岗位，在发挥自己多年 frontend experience 的同时，进一步承担 backend、architecture 以及整个 product lifecycle 的责任。这也是我一直在努力发展的方向，我相信它和这个岗位非常契合。
