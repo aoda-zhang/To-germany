@@ -10,7 +10,7 @@
 
 **Answer (EN)**
 
-Sure. I've been working in software development for over nine years. I started as a frontend engineer, mainly working with JavaScript and web technologies, and gradually developed strong experience with React and TypeScript. At Newegg, I worked on e-commerce products, including an Angular-to-React migration, seller-facing features, and React Native mobile features. I'm now at Manulife, where my role is more full-stack: I still focus strongly on frontend architecture and shared components, but I also work with Node.js technologies such as Express and NestJS. Overall, I'd describe myself as a frontend-focused full-stack engineer.
+Sure. I have over nine years of experience in software development, mainly working with React, TypeScript, and Node.js. After graduating, I joined Hucai, where I learned the software development lifecycle and worked on important internal systems with guidance from senior engineers. After five years, I wanted to step outside my comfort zone and work on more international products in an environment that placed greater emphasis on engineering quality and maintainability, so I joined Newegg. There, I contributed to the technology migration of the Newegg Marketplace and developed mobile features for sellers. I also gained experience maintaining products across multiple markets and collaborating with international teams. About a year later, the company made a strategic change and our entire mobile development team was laid off. I then joined Manulife, a Canadian global asset-management company, where my role became more full-stack. I enjoy being able to develop and maintain a product end to end, from the frontend to backend services, and to think more broadly about product needs and system architecture. I'm now planning to move to Germany for family reasons, and I'm looking for a software engineering role where I can build on my experience while continuing to learn and take on new challenges.
 
 **参考回答（中文）**
 
@@ -42,7 +42,7 @@ My strongest area is frontend engineering, especially React, TypeScript, compone
 
 **Answer (EN)**
 
-Because that best reflects both my experience and my current strengths. Most of my career has been focused on frontend development, and that's where I have the deepest experience. In my current role, I've deliberately expanded into backend development with Node.js, Express, and NestJS. I can work across the stack, but I don't want to imply that my backend experience is as extensive as my frontend experience.
+My experience is strongest in frontend engineering, which has been the main focus of most of my career. In my current role, I have also taken on backend development, using technologies such as Node.js, Express, and NestJS. However, I have less experience with deeper backend topics such as distributed systems and cache design. So I can contribute across the stack, but I prefer to describe myself as frontend-focused rather than suggest that my frontend and backend experience are equally deep.
 
 **参考回答（中文）**
 
@@ -90,7 +90,7 @@ so that is it，而且figma上早就有了相关标注，只是没人关注
 
 **Answer (EN)**
 
-The goal was to make styling more consistent across five microfrontend services. When separate applications evolve independently, shared design decisions can drift and similar UI elements can end up looking or behaving differently. Design tokens give the teams a common set of values to build on, making styling easier to maintain across services.
+We had several microfrontend applications, and each one managed its styles separately. When we needed to fix even a small styling issue, such as a color difference, we often had to spend a long time comparing the applications. This became especially confusing when I worked on refactoring the shared header and footer. Fixing each issue locally was possible in the short term, but as more features were added, the differences were becoming technical debt. I felt we needed a shared styling foundation that every microfrontend could align with, even if each application continued to manage its styles in its own way.
 
 **参考回答（中文）**
 
@@ -100,7 +100,7 @@ The goal was to make styling more consistent across five microfrontend services.
 
 **Answer (EN)**
 
-I led the design-token implementation across the five services. My focus was to help establish a consistent styling foundation that could be used across those applications, rather than fixing the same styling differences separately in each service. The result recorded in my CV was more consistent styling and at least a 30% reduction in frontend styling issues.
+I investigated how we could establish that shared foundation and spoke with designers from different markets. I discovered that the company already had a design system defining primitives such as heading levels and body text, and the relevant specifications were documented in Figma. They simply hadn't been consistently used across the applications. I implemented the design tokens based on those existing design primitives and the styling setup of each microfrontend. This allowed each application to keep its own styling approach while requiring shared styling values to follow the agreed tokens. My CV records at least a 30% reduction in frontend styling issues.
 
 **参考回答（中文）**
 
@@ -110,7 +110,7 @@ I led the design-token implementation across the five services. My focus was to 
 
 **Answer (EN)**
 
-Fixing each application separately can solve an immediate issue, but it tends to create duplicated work and inconsistent results over time. Tokens centralize shared design decisions, so applications can use the same source of values and update them in a more controlled way. For a group of microfrontends, that shared foundation is more maintainable than relying on each team to make the same decisions independently.
+I considered two options: refactor all the microfrontends into one unified styling approach, or let each application keep its existing styling setup while standardizing the underlying design values. I chose the second option. A complete styling refactor would have been much broader and more disruptive, while shared tokens could address the core inconsistency without forcing every application to use the same styling implementation. The key was to align the design values, not necessarily the styling tools or structure.
 
 **参考回答（中文）**
 
@@ -130,7 +130,7 @@ The figure in my CV refers to a reduction in frontend styling issues after the t
 
 **Answer (EN)**
 
-I learned that shared frontend foundations are as much about coordination as they are about code. A solution only works if different applications can adopt it consistently and maintain it over time. I now pay more attention to naming, ownership, adoption, and how a shared decision affects teams beyond the application I'm working on.
+The main difficulty was working across microfrontends that had evolved with different styling conventions. I had to understand those differences and map the existing design-system primitives into a shared token foundation without requiring every application to be rebuilt in the same way. I learned that a shared frontend foundation needs both a clear technical standard and alignment across teams. If I did this again, I'd try to get involved earlier in the architecture discussions and establish shared design tokens before the individual microfrontends drifted so far apart.
 
 **参考回答（中文）**
 
@@ -198,7 +198,7 @@ I'd make adoption and measurement part of the plan from the beginning. A shared 
 
 **Answer (EN)**
 
-The challenge was making changes to an existing report module while keeping the behavior of reports reliable. As a reporting solution grows, adding another report can become slower if the implementation is difficult to understand or if common behavior is not organized well. The goal of the refactoring was to make the code easier to work with so that new reports could be developed more efficiently.
+When I was working on PDF reports for my market, I was told to look at how other markets had implemented theirs. I found at least three different solutions, with no clear development documentation. Developers were copying large amounts of template code and then modifying the raw HTML. Although the PDF reports shared a lot of content with the corresponding web pages, the three approaches couldn't reuse that content effectively, and developing a new report took at least three days. Since our technology stack was React and a PDF report is also a user interface, I wondered whether we could build reports with React and reuse our shared components.
 
 **参考回答（中文）**
 
@@ -208,7 +208,7 @@ The challenge was making changes to an existing report module while keeping the 
 
 **Answer (EN)**
 
-I refactored the legacy PDF report module with React, focusing on making the existing solution easier to extend and reuse for new reports. Rather than treating every new report as a completely separate implementation, the work aimed to reduce repeated effort in the reporting workflow. According to my CV, the result was a 40% reduction in the development time for new reports.
+I researched the options and gathered evidence, then built a working React-based PDF report prototype in one day using our shared components. I presented it to developers from several markets and our technical manager, and they agreed it was worth exploring and rolling out. With my manager's support, I refined the solution and presented it to developers in other countries. Eventually, all markets adopted the unified approach for new PDF reports. Before I left, our team was also using AI to help migrate reports from the old implementations to the new approach. The result recorded in my CV was a 40% reduction in new-report development time.
 
 **参考回答（中文）**
 
@@ -304,7 +304,7 @@ story: 我们有接近100多个共享的业务组件，但是这些业务组件�
 
 **Answer (EN)**
 
-A shared component library helps teams avoid solving the same UI problems repeatedly. It provides reusable building blocks and a more consistent way to implement common interface patterns. The architectural challenge is to make components reusable without making them so generic that they become difficult to understand or customize.
+We had close to 100 shared business components, but many README files no longer matched the actual code. When developers in another market needed to find a reusable component, they often had to search through a lot of code. That took time and sometimes led teams to build components that already existed. I wanted to make the available components easier to discover and the maintenance process more reliable.
 
 **参考回答（中文）**
 
@@ -314,7 +314,7 @@ A shared component library helps teams avoid solving the same UI problems repeat
 
 **Answer (EN)**
 
-I independently designed and built the component-library architecture. That means my contribution was not limited to implementing individual components; I also worked on how the library should be structured so that components could be maintained and reused. I would distinguish that architectural ownership from any broader team decisions or contributions made by other engineers.
+I independently designed and built the component-library architecture. My approach was to use Storybook to organize and present the project's shared components, and to create a related skill that could help developers quickly find the right component instead of searching through the code manually. I also integrated the team's component rules into CI/CD: changes to shared components had to go through the relevant scan and receive reviews from at least two colleagues. This combined discoverability with a clearer quality-control process.
 
 **参考回答（中文）**
 
