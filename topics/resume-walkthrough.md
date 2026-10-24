@@ -14,7 +14,19 @@ Sure. I've been working in software development for over nine years. I started a
 
 **参考回答（中文）**
 
-当然。我有超过 9 年的软件开发经验，最初从前端开发做起，主要使用 JavaScript 和 Web 技术，之后逐渐积累了扎实的 React 和 TypeScript 经验。在 Newegg，我参与电商产品开发，包括 Angular 到 React 的迁移、面向卖家的功能以及 React Native 移动端功能。目前我在 Manulife，工作范围更偏全栈：前端架构和共享组件仍然是我的强项，同时我也使用 Express、NestJS 等 Node.js 技术参与后端开发。整体来说，我会把自己定位为以前端为核心的全栈工程师。
+当前，我有超过9年的软件开发工作，主要技术栈就是react typescriep nodesj
+
+我大学毕业后，加入了hucai，在哪里里我系统性的学习了现代化软件开发的全流程，也在高级开发人员的指导下参与了很多重要的内部系统开发和维护。
+
+在哪里工作了5年后，我开始思考我必须跳出舒适圈，我想参与更国际化的产品开发，我想在一个更重视工程质量，代码可维护性的地方去成长，于是我加入了newegg
+
+在哪里，我主要参与了newegg market palce的技术栈迁移，以及商家端的移动端开发，见证了国际化，多市场项目的维护，也有了与多个国际化团队的工作经验
+
+很不幸的是，1年后，公司战略调整，我们整个移动端开发团队被裁
+
+于是我加入了上一家公司，来自加拿大的，一个做全球资产管理的国际化公司，在这里，我的角色是一名全栈开发人员，我很享受这个角色带给我的成长，因为我现在完全可以端对端开发，从0维护一个完整的产品，以前的角色可能更多关注在用户interface上，现在我关注整个产品的策略，如何设计整个系统的架构，包括前后端才可以更好的维护整个系统。
+
+我现在为了家庭来到德国，我希望可以继续寻找一个软件开发机会，基于我过去的工作经验，同时我也保持开发心态，接收更多新的挑战
 
 ### Q2. What would you say is your strongest area?
 
@@ -34,7 +46,7 @@ Because that best reflects both my experience and my current strengths. Most of 
 
 **参考回答（中文）**
 
-因为这个定位最符合我的实际经历和目前的优势。我职业生涯的大部分时间都在做前端开发，这也是我经验最深的领域。在目前的工作中，我有意识地拓展了 Node.js、Express 和 NestJS 后端开发能力。我可以跨前后端工作，但不会把自己的后端经验说成和前端一样深。
+就像我简历中写道的，我职业生涯的大部分时间都在做前端开发，这也是我经验最深的领域。在上一份工作里，我也参与了很多后端开发，但是我却少后端分布式系统，缓存设计等重后端的经验，所以我不会把自己说成真正的全栈
 
 ### Q4. Why are you looking for a new role in Germany?
 
@@ -49,6 +61,28 @@ I'm looking for an opportunity to continue developing as an engineer in an inter
 ---
 
 ## 2. Manulife — Design tokens across five microfrontend services
+
+我们有几个微前端项目，但是由于一些架构设计问题，每个微前端都存在自己的样式管理
+有时候当我们尝试修复一个样式问题，甚至颜色问题，都要花费很久时间去分析多个微前端之间的差异
+当我尝试去重构我们整个系统的头部和footer部分的时候，这真的很混乱
+
+我可以很快的按照的每个微前端的样式方式快速处理ticket，但是随着项目feature越来越多
+我们的样式管理会很快遇到问题，这是我们的技术债务
+我当时的想法就是，我们必须要有一个合理的可统一参考的样式，每个微服务可以采用自己的方式
+但是我们必须align
+
+于是我做了搜索，也和一些market的设计师talk，我很快发现，其实整个公司有一个很明确的design system
+整个系统的primtive，like h1 h2 body,etc
+so that is it，而且figma上早就有了相关标注，只是没人关注
+于是我基于每个微前端的样式管理，根据这个primtive 做了实现
+最终每个微前端依然可以继续使用各自的样式管理，但是相关样式内容就必须严格遵守已经写好的design-token
+
+2:做了什么取舍
+从全部重构为统一的，到保持各自的样式管理，但是底层还是用同样的内容
+3:最终怎么解决的
+4:遇到了哪些困难
+5:下次会怎么做如果再给一次机会
+如果有下次，希望尽早的参与这些架构设计，制定微前端之间共享的design token
 
 **CV bullet:** Led design token implementation across 5 microfrontend services, standardizing styling and reducing frontend styling issues by at least 30%.
 
@@ -147,6 +181,17 @@ I'd make adoption and measurement part of the plan from the beginning. A shared 
 
 ## 3. Manulife — Refactoring a legacy PDF report module
 
+1:当我在处理MY PDF报告的时候，我被告知可以参考目前其他markey的做法，然后我发现目前项目里存在至少3个
+不同的解决方案，每一个方案都没有清晰的开发文档，而且开发人员全部都是复制大量的模版代码，在此基础上更改原声html
+我的pdf报告和page中的内容有很多是相同的，但是目前的3种方案都无法共用，并且每一个方案的开发周期都至少3天
+于是我开始思考，我们整个系统的技术栈是react，为什么我们不用react来尝试生成报告呢，本质上pdf也是UI interface
+于是我做了一番调研和证据收集，我用了一天时间，用react做了一个PDF报告，复用了我们的公共组件，我很兴奋
+我和我们的几个market的开发人员以及我们的技术经理做了简单汇报，大家都觉得这个方案很好，值得去尝试和推广
+于是我便彻底完善了这个方案
+
+我的manager给了很大的支持，我们开了一个会议，向我们其他国家的开发人员展示了我们的方案，
+最终，我们所有的market采用了统一的方案，新的PDF我们统一采用这个方案，实际上，因为有了AI，在我走之前，我们团队也正在用AI把原来久的方案迁移到目前我这个新的方案上面
+
 **CV bullet:** Refactored a legacy PDF report module with React, reducing new report development time by 40%.
 
 ### Q1. What was the challenge with the legacy module?
@@ -242,7 +287,16 @@ The risk is introducing broad changes that don't create enough value to justify 
 
 风险在于做了范围很大的改动，却没有创造足以抵消回归风险的价值。我倾向于让每一步重构都对应明确的维护或交付问题，保留用户依赖的行为，并逐步验证改动。这样可以让重构聚焦于结果，而不只是代码形式。
 
+
+
 ## 4. Manulife — Component-library architecture and AI-assisted review
+
+story: 我们有接近100多个共享的业务组件，但是这些业务组件的很多readme文档和code已经不匹配
+当其他market需要找到一个可复用的组件的时候，通常需要查找大量的code 导致很多时间我们会重复创建一些业务组件
+
+于是我思考到，我们可以记住storybook搭建整个项目的组件库，同时创建相关skill，能够很快找到对应的组件
+另外，将团队中关于组件的一些规则集成到了cicd中，所有关于公共组件的修改，必须进行对应scan，同时也要有至少2名以上同事的review
+
 
 **CV bullet:** Independently designed and built the component library architecture, integrating AI-powered review and maintenance to ensure component quality.
 
@@ -512,6 +566,7 @@ The engineer still needs to verify the explanation, understand the system's cons
 **参考回答（中文）**
 
 工程师仍然需要验证解释、理解系统约束，并做出最终决策。AI 可以减少搜索和总结所需的时间，但不会替人承担正确性和后果责任。我把它看作一种辅助方式，让工程师把更多时间投入判断和实现，而不是重复的信息搜寻。
+
 
 ## 7. Newegg — Angular-to-React micro-frontend migration
 

@@ -8,7 +8,7 @@
 **中文考察点：** 动机真实性。德国 HR 最怕中国候选人「拿 offer 跳板」，会追问「三个月你就走了怎么办」。
 
 **你的真实故事（记在心里，按下面的英文口径讲）：**
-- 疫情期间家里发生了很糟糕的事情 → 之后你和妻子开始认真考虑搬去国外 —— 所以这是**从疫情就开始的多年家庭决定**，不是临时起意
+- 主要为了孩子的教育
 - 2025 年你们有了孩子 → 「把孩子一起接过去」是**最强的长期承诺信号**，直接反驳「跳板」质疑
 - 妻子的大学舍友在德国生活了 10 年 → 你们聊了很多 —— 这是「为什么是德国而不是别的国家」的真实答案
 - 于是你开始学德语，A1 已学完、正在学 A2 → 用行动证明决心
@@ -27,7 +27,6 @@
 > On the professional side it also fits: I work on financial products where correctness matters, and Germany's engineering culture — structured development, real code review, testing discipline — is exactly the environment I want to grow in long-term.
 
 ⚠️ **中文备注：**
-- 疫情时家里的变故**一句话带过**（"a difficult time as a family"），不要展开细节 —— 展开像在卖惨，也容易被解读成「逃离」
 - ❌ 不要说「想拿欧盟身份」「国内太卷」
 - ✅ 三个长期性证据按顺序讲：**疫情时就开始的多年决定 → 已在学德语（A1 完 / A2 在学）→ 孩子出生、全家搬过去**
 - ✅ 「为什么是德国」就答**妻子舍友在德 10 年** —— 真实、具体、有一手信息，还顺便说明你对德国的预期是现实的
