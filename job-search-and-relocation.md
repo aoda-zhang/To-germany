@@ -1,4 +1,11 @@
-# Networking and Referral Messages
+# Germany Job Search and Relocation
+
+Networking templates, relocation checklist, and English-learning notes are grouped here so practical preparation stays in one place.
+
+
+---
+
+# Networking and referrals
 
 ## 12. 求职 Networking：联系公司员工并礼貌请求内推（英文模板）
 
@@ -100,3 +107,43 @@ Please let me know if you need anything else from me. Thanks again!
 5. **避免群发感。** 每条消息至少加入一个真实的个性化信息，例如岗位名称、对方负责的技术领域或你与岗位相关的项目经历。
 6. **不要一开始就附加不必要的私人信息。** 首次沟通通常提供职业背景和岗位信息即可；只有对方需要时再发送完整简历。
 7. **内推不是要求对方保证结果。** 你的目标是请对方帮忙提交申请或说明内部流程，而不是要求对方为尚未验证的能力作担保。
+
+---
+
+# Relocation preparation
+
+This file tracks the practical preparation work alongside the job search. Confirm current requirements with the relevant German authorities before submitting documents, because requirements can vary by visa route and personal circumstances.
+
+## Degree recognition
+
+- [ ] Check whether your degree needs anabin verification and/or a ZAB Statement of Comparability for your intended route.
+- [ ] Prepare your university diploma and degree certificate.
+- [ ] Request an official university transcript, including any required stamp, signature, translation, or certification.
+- [ ] Check whether any additional school-leaving or examination records are actually required for your specific application before spending time obtaining them.
+- [ ] Keep digital copies of submitted documents and application references.
+
+## Application materials
+
+- [ ] Prepare a motivation letter if required by the route or application.
+- [ ] Keep a record of German-language learning and any certificates.
+- [ ] Keep the CV, LinkedIn profile, self-introduction, and interview answers consistent.
+- [ ] Track each document's status, source, date obtained, and expiry date where applicable.
+
+## Work authorization
+
+- [ ] Confirm the correct work-authorization route for your situation and the latest EU Blue Card eligibility criteria.
+- [ ] Be accurate in interviews about your current residence status, whether a visa is needed, and the earliest realistic start date.
+- [ ] Do not claim that a Blue Card or residence permit has been approved until it has been granted.
+
+## Language learning
+
+- [ ] Keep German level descriptions consistent across the CV and interviews.
+- [ ] Set a realistic next milestone and maintain regular speaking practice.
+- [ ] Prepare a concise English explanation of how you are learning German and why it matters to your relocation.
+
+---
+
+# English learning notes
+
+## 1. 精听
+## 说 （italk）

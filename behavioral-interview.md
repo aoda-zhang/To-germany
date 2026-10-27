@@ -1,4 +1,235 @@
-# BQ 行为面试题中文分析与回答指南
+# Behavioral Interview Preparation
+
+This is the consolidated source for the BQ framework, story bank, question bank, and Chinese answer analysis. Use real examples and verify all details before interviews.
+
+
+---
+
+# BQ framework and answer outlines
+
+## 5. 行为面试（BQ / Behavioural）
+
+> **Expanded practice bank:** [200 CV-tailored questions across 10 behavioural categories](./bq-question-bank.md). Use that file for category-by-category practice; use this guide for the existing STAR framework, story selection, and answer outlines.
+
+### 5.0 先建故事库：7 个故事打天下（准备方法）
+
+**BQ 的真相：面试官不是在考你「这道题答过没有」，而是在几个固定维度收集信号** —— 动机、主动性、模糊环境下的自主性、坚持力、冲突处理、自我认知与成长、沟通（大厂通用评分维度，德国公司同样适用，来源见第 9 节 TIH rubrics）。
+
+所以**不要按题背答案** —— 准备一个故事库，问题来了对号入座。每个故事能服务 3–5 个问题。
+
+**你的故事库（全部来自你简历上的真实经历）：**
+
+| # | 故事 | 一句话版本 | 覆盖的问题类型 |
+|---|---|---|---|
+| 1 | 微前端迁移（Newegg） | 3 团队 Angular→React 零停机，灰度发布 + kill switch | 最难的问题、压力、跨团队协作、关键决策、复盘 |
+| 2 | Design Token 体系（Manulife） | 语义化 token 共享包 + lint 卡点，推动 5 个服务迁移 | 主动性、影响力、说服他人、坚持标准 |
+| 3 | PDF 重构（Manulife） | 模板层 + 异步生成，新报告开发 ↓40% | 量化结果、接手没人想碰的遗留代码 |
+| 4 | 考勤系统落地（Hucai） | 技术不难，难在让用了多年手工流程的人真用起来 | 说服与同理心、落地能力、推动采纳 |
+| 5 | 前端→全栈（Manulife） | 两年内有意识补后端（NestJS/MongoDB） | 快速学习、成长心态、诚实谈弱点 |
+| 6 | 前端架构 + 设计系统（Design Token）（Manulife） | 主动发现 5 服务样式不一致 ↔ 语义化 token 方案 → 说服团队 → 共享包 + lint → 好反馈；也是独立完成的代表 |
+| 7 | 非科班转行（新闻学 → 9 年工程师） | 真实起点 + 产出证据（开源、微前端迁移） |
+| 8 | ⚠️ 已补真实案例：PDF 重构 + Design Token（上表已更新） | 主动发现问题 → approve → 独立完成 → 好反馈 |
+| 9 | 跨市场企业级前端架构（Manulife / Newegg / Hucai） | 9 年企业级 + 多市场，擅长技术选型与 tradeoff |
+
+**使用规则：**
+- 一个问题 = 从库里调一个故事，按 STAR 讲 2–3 分钟（STAR 结构见 5.1）
+- 全程说 **I** 不说 we —— 德国面试官一定会追问「你个人具体做了什么」
+- 能带数字就带数字（第 0 节的 8 个指标）
+- 结尾一定加复盘（what I'd do differently）—— 这是德国面试官最看重的部分
+- 同一场面试里**不要重复用同一个故事**，面试官之间会交换笔记
+
+**你的真实优势（直接可用的英文表达，配合故事库）：**
+> I'm strongest at frontend architecture and design decisions — I've spent years on enterprise-grade projects across multiple markets, so my work isn't just using React/TypeScript; it's deciding when to build vs. buy, how to split services, and what tradeoffs are worth making. Two recent examples: I independently rebuilt our PDF module and built the system's design-token architecture from scratch — both started because I spotted the problem, got approval, and delivered end-to-end with measurable results.
+
+**你的真实弱点（直接可用，避免「我太完美」）：**
+> I'm not deep on high-concurrency backend — cache strategies, event messaging, distributed systems. That's exactly why I deliberately expanded into backend at Manulife with NestJS, but I'm honest that I'm still stronger on architecture and frontend integration than on pure backend scale.
+
+---
+
+### 5.1 最难的技术问题 / Hardest problem
+
+**English question:**
+> Tell me about the hardest technical problem you've solved.
+
+**答题结构 STAR（英文顺序：Situation → Task → Action → Result → Reflection）：**
+> **Situation:** [context — scale, constraints]
+> **Task:** [what specifically you had to solve]
+> **Action:** [what *you* did — your judgement, not "we"]
+> **Result:** [outcome with the number from your CV]
+> **Reflection:** [what you'd do differently — this is what German interviewers value most]
+
+⚠️ **中文备注：** 用你的**微前端迁移**或 **PDF 重构**。最后一段「复盘」是加分项，很多候选人不说。
+
+---
+
+### 5.2 犯过的错误 / A mistake you made
+
+**English question:**
+> Tell me about a mistake you made.
+
+**English answer outline:**
+> [Pick a real but non-fatal mistake. Structure:] what happened, what the impact was — and I want to be honest about the impact — what I did about it, and what I changed so it wouldn't happen again.
+>
+> The lasting change was [process/tool/convention], not just "I was more careful".
+>
+> **Your real examples to adapt:** PDF/module load issue missed early? Migration rollback plan missing a stage? Design token v1 missing edge-case tokens causing a regression? Pick one — make impact real — end with mechanism change.
+
+⚠️ **中文备注：**
+- ⚠️ 不要选无关痛痒的，也不要「我太追求完美」这种假答案
+- ⚠️ **不甩锅**给"团队原因"
+- 关键是最后那句「机制上的改变」
+
+---
+
+### 5.3 技术分歧 / Technical disagreement
+
+**English question:**
+> How do you handle technical disagreements with colleagues?
+
+**English answer outline:**
+> First I try to make sure we're arguing about the same thing — usually we actually agree on the goal and disagree about the path.
+>
+> After that, I try to move the debate off opinion and onto evidence: a small prototype, a benchmark, or data from production. "I think X is faster" is much weaker than "I profiled it and here's the number".
+>
+> Once a decision is made I follow it even if I'd have chosen differently — and then we revisit it with real data. Disagreeing with the decision isn't the same as undermining the person who made it.
+
+⚠️ **中文备注：** 德国公司重视**建设性冲突**和**直接沟通**。这个回答正好展示了「对事不对人」。
+
+---
+
+### 5.4 Code Review
+
+**English question:**
+> How do you do code review?
+
+**English answer outline:**
+> I separate blocking issues from suggestions. Blocking is bugs, security, and correctness — that has to be fixed. Everything else is a suggestion, and I mark it as such so people can judge.
+>
+> I try to explain *why*, not just what. A comment that says "this could cause a stale closure here" teaches something; a comment that says "fix this" doesn't.
+
+---
+
+### 5.5 为什么招你 / Why us
+
+**English question:**
+> Why should we hire you?
+
+**English answer outline (three concrete pillars from your CV):**
+> **First, end-to-end ownership.** I'm frontend-heavy, but I deliberately moved into backend with Node and NestJS so I can own a feature from data model to UI without waiting on someone else.
+>
+> **Second, I've done the hard migrations.** Leading an Angular-to-React micro-frontend migration across three teams with zero downtime is not a theoretical skill — I've done it. Same with building a component library and design tokens at Manulife.
+>
+> **Third, I work across cultures already.** The migration project meant coordinating across three teams, and I maintain an open-source project independently. Working in a distributed, international setting isn't new to me.
+
+⚠️ **中文备注：** 用**具体项目**支撑，不要空喊形容词。
+
+---
+
+### 5.6 职业规划 / Career plans
+
+**中文考察点：** ⭐ 德国公司很看重**稳定性预期**。
+
+**English question:**
+> Where do you see yourself in three to five years?
+
+**English answer outline:**
+> I'd like to go deeper on architecture and stay hands-on technically. I don't want to move entirely into management, but I'd like to be the person who shapes how the frontend and backend fit together — and I'd like to do that long-term, in Germany, rather than bouncing between countries.
+
+⚠️ **中文备注：** ❌ 不要说「想创业」「想做管理」（除非投管理岗）。✅ 强调长期留在德国。
+
+---
+
+### 5.7 BQ 大题库（按类别速查）
+
+> 40+ 题不需要每题写答案 —— 每题从 **5.0 故事库**调一个故事，再看「要点」列即可。标 ⭐ 的是出现率最高的必练题。
+
+#### A. 冲突、分歧与反馈
+
+德国公司极重视**直接沟通**和 disagree & commit，这类题出现率最高。
+
+| 问题 | 考察点 | 用哪个故事 / 要点 |
+|---|---|---|
+| ⭐ Tell me about a time you disagreed with a coworker. How did you resolve it? | 冲突处理 | 5.3 已详答；核心：先确认目标一致 → 从观点移到数据/证据 → 决定后执行 |
+| Tell me about a time you disagreed with your manager. | 向上管理 | 私下提出、摆数据、给替代方案；决定后公开支持，不阴阳怪气 |
+| Tell me about a time you received critical feedback. | 接受反馈 | 不辩解 → 问清具体 → 有改进行动 → 说出后续结果 |
+| Tell me about a time you had to give difficult feedback. | 给反馈 | Code review 的 blocking vs suggestion 分级（5.4）；或对上级说「这个排期做不到」 |
+| What would you do if you think your lead's decision is wrong? | 情境题 | 先问清背景 → 小 prototype / 数据 → 决定后 follow。❌ 别答「我会服从」也别答「我会硬扛到底」 |
+| Tell me about a conflict on your team and how it was resolved. | 团队冲突 | 故事 1：3 个团队对迁移契约的分歧 → 先定契约再写代码 |
+
+#### B. 失败、错误与压力
+
+| 问题 | 考察点 | 用哪个故事 / 要点 |
+|---|---|---|
+| ⭐ Tell me about a mistake you made. | 自我认知 | 5.2 已详答 —— ⚠️ **把真实案例填进去** |
+| Tell me about a project that didn't go as planned. | 失败复盘 | 故事 1 的复盘段：observability 引入太晚；或你的真实失败案例 |
+| Tell me about a time you missed a deadline. | 责任感 | 关键是**提前预警**而不是拖到最后；重点讲怎么补救 + 后来怎么预防 |
+| How do you handle pressure / competing priorities? | 优先级 | 按影响面和阻塞关系排序 + 主动和 stakeholder 对齐预期，不闷头硬干 |
+| ⭐ Tell me about a time you had to learn something new quickly. | 学习速度 | 故事 5：两年内从前端补齐 NestJS/MongoDB —— 真实、有产出 |
+| Tell me about a time you took a risk. | 判断力 | 灰度 1% 起步 —— 讲你如何把风险变**可控**，而不是讲你胆子大 |
+
+#### C. 主动性、影响力与领导力
+
+| 问题 | 考察点 | 用哪个故事 / 要点 |
+|---|---|---|
+| ⭐ Tell me about a time you took initiative beyond your role. | 主动性 | 故事 2：没人要求做 token，你发现问题 → 提方案 → 建共享包 → 立规范 |
+| Tell me about a time you convinced others to change direction. | 影响力 | lint 卡点让 5 个团队迁移：讲清「为什么」+ 把接入成本降到最低 |
+| Tell me about a time you showed leadership without formal authority. | 影响力 | token 体系的事实 owner：文档、迁移支持、版本管理，没有头衔照样推得动 |
+| Have you ever pushed back on an unrealistic deadline? | 谈判 | 给选项不硬顶：砍范围 / 分期 / 加资源，让 decision maker 选 |
+| Tell me about a time you took on a task nobody wanted. | 担当 | 故事 3：PDF legacy 模块，人人躲着走的那块代码 |
+
+#### D. 团队协作与沟通
+
+| 问题 | 考察点 | 用哪个故事 / 要点 |
+|---|---|---|
+| Tell me about a time you worked well in a team. | 协作 | 故事 1：3 团队在没有共享代码库的情况下协同迁移 |
+| Tell me about a difficult stakeholder and how you worked with them. | 同理心 | 故事 4：用了多年手工流程的人不信任新系统 → 先听抱怨、再改设计、再推广 |
+| ⭐ Explain a complex technical concept to a non-technical person. | 沟通 | token → 「同一个按钮在不同产品里长得不一样，客户以为我们不专业」这种翻译方式 |
+| Tell me about a time miscommunication caused a problem. | 教训 | ⚠️ 待补真实案例；重点：怎么发现的 + 后来建立了什么机制 |
+| How do you keep stakeholders informed of progress and risks? | 主动性 | 说**具体机制**：定期 demo、风险提前上报；不说「我沟通能力很好」 |
+
+#### E. 自我认知与动机
+
+| 问题 | 考察点 | 用哪个故事 / 要点 |
+|---|---|---|
+| ⭐ What are your strengths? | 自我认知 | 端到端 owner + 迁移经验 + 用产出说话（非科班但有 9 年证据） |
+| ⭐ What is your greatest weakness? | 诚实度 | **真实的两条**：① 不擅长高并发后端（cache / event message 等）—— 这就是为什么选前端/全栈，Manulife 两年补 NestJS 但深度仍不如纯后端；② 早期习惯自己扛问题，后来学会提前暴露风险。❌ 别说「太追求完美」 |
+| What's the best feedback you've received? | 成长 | 和你的失败故事呼应，两个答案要**相互一致** |
+| What motivates you as an engineer? | 动机 | 把混乱理顺、做出可衡量的改进（↓40% 这类数字）；可带一句家庭长期定居德国的目标 |
+| Why should we NOT hire you? | 压力测试 | 诚实：「如果你要的是 10 年经验的纯后端架构师，那我不是。但如果你要的是能把功能从数据模型做到 UI 的人，这正是我这两年的方向」 |
+| What would your previous manager say about you? | 一致性 | 挑 1–2 个真实、可验证的评价点，别吹 |
+| What's the project you're most proud of? | 动机 + 主动性 | **PDF 重构 + Design Token 双项目**：主动发现问题 → 拿到 approve → 独立完成 → 好反馈（设计师反馈 + 业务效率提升） |
+
+#### F. 决策与模糊性
+
+| 问题 | 考察点 | 用哪个故事 / 要点 |
+|---|---|---|
+| Tell me about a hard decision you made with incomplete information. | 决策 | 微前端 vs 全量重写：列出权衡（风险、团队独立部署、复用旧代码）→ 解释为什么这么选 |
+| Tell me about a time you made a fast decision. | 果断 | 灰度阶段指标异常 → kill switch 回滚 → 修复 → 重新灰度 |
+| How do you decide when to take on technical debt? | 工程判断 | 三问：影响面多大？有偿还计划吗？决策相关方知情吗？❌ 别说「永远不欠债」 |
+| Tell me about an ambiguous task you were given. | 自主性 | 「把样式问题解决一下」—— 只有问题没有方案；先量化问题，再建 token 体系 |
+| Speed vs quality — what trade-off have you made? | 权衡 | 灰度发布本身就是答案：用流程换速度（1% 起步 = 又快又稳） |
+
+#### G. 德国特有 / Teamfit
+
+| 问题 | 考察点 | 要点 |
+|---|---|---|
+| How do you handle direct criticism? | 文化适配 | 直接 ≠ 针对个人；「明确的负面反馈比客气的模糊更好」—— 呼应 6.1 |
+| What do you do in your free time?（德企真的会问） | 真实感 + 平衡 | 开源项目 + 学德语 + 陪家人 —— 顺便印证搬家是认真的；说真实的，别背稿 |
+| How do you view work-life balance? | 文化适配 | 高效产出 + 清晰边界；❌ 别表现成「随时在线」，德国不买账 |
+| Have you ever said "I don't know" in a professional setting? | 诚实 | 直接用第 0 节那三句话 —— 德国面试**最吃**这套 |
+| Wie arbeiten Sie im Team?（如遇德语环节） | 团队适配 | 故事 1 的协作版本，重点讲跨团队契约与沟通 |
+
+**准备方法（Tech Interview Handbook 建议 + 本地化）：**
+1. 每个故事写一张英文 STAR 卡：Situation 1 句 / Task 1 句 / Action 4–5 句 / Result 带数字 / Reflection 1 句
+2. 出声练 3 遍，练到不看卡
+3. 用上面的题库随机抽题 mock（找 AI 或朋友抽）—— 目标是抽到任何一题都能 30 秒内想起用哪个故事
+
+---
+
+---
+
+# Question bank and Chinese answer analysis
+
 ## Frontend-Focused Full-Stack Engineer｜德国求职准备
 
 > 本文以本文件原有的 200 道 Behavioral Interview Question Bank 为基础，为每题补充中文释义、面试官意图和回答方向。题目保留英文，方便直接练习英文面试。
@@ -1914,3 +2145,202 @@
 如果是 HR 初筛，则将第 3 个问题替换为招聘流程、岗位范围或入职时间相关问题；如果已经在与未来经理交流，则优先了解成功标准、团队挑战和管理方式。
 
 **来源：** [GreatFrontEnd — Useful Questions to Ask at the End of your Front End Interview](https://www.greatfrontend.com/behavioral-interview-playbook/questions-to-ask)；[GreatFrontEnd — Behavioral Interview Playbook](https://www.greatfrontend.com/behavioral-interview-playbook/introduction)。
+
+---
+
+# Core story bank
+
+> **Purpose:** Prepare five flexible, truthful stories that can answer most behavioural interview questions for frontend-focused / frontend-heavy full-stack roles in Germany.
+>
+> **Source of truth:** `myCV.md`, `fullStack-CV.json`, and `topics/resume-walkthrough.md`. This file uses only experiences and outcomes already represented in those documents. Any detail marked **[CONFIRM]** must be replaced with what actually happened before using it in an interview. Do not memorise unverified implementation details.
+
+## How to use this file
+
+- Learn the five story arcs, not five scripts. Adapt the emphasis to the question.
+- Use **I** for your own decisions and actions; use **we** only for team outcomes.
+- Aim for 90–150 seconds: Situation (15s), Task (10s), Action (60–90s), Result (15s), Reflection (15s).
+- The metric must keep its original meaning. For example, the PDF result is **new-report development time reduced by 40%** in the resume walkthrough, while the CV profile also says report delivery time fell by 60%. Verify the approved CV wording and measurement before quoting either number; do not combine them.
+- Never invent conflict, failure, feedback, stakeholder reactions, measurement methods, or technical mechanisms. If asked for a story whose real details you cannot recall, say so honestly and explain how you would handle the situation.
+
+## The five core stories
+
+### Story 1 — Making design decisions consistent across five microfrontend services
+**Employer:** Manulife  
+**Best for:** initiative, ownership, influencing without authority, ambiguous tasks, quality, standards, explaining technical concepts, measurable improvement.
+
+**Grounded situation:** Five microfrontend services had inconsistent styling. Your CV attributes a reduction in styling issues (at least 30% in the resume walkthrough; 40% in `myCV.md`) to implementing design tokens. **Resolve this metric discrepancy against your final CV before interviews.**
+
+**Story spine (STAR + reflection):**
+- **Situation:** As the services evolved, visual styling was not consistent across products.
+- **Task:** Help establish a reusable way to keep design decisions consistent across independently maintained services.
+- **Action:** Explain the actual token architecture you implemented, how consuming services used it, how you worked with other developers/designers, and what you personally owned. **[CONFIRM]** the exact token categories, package/distribution mechanism, enforcement rules, rollout sequence, and how teams agreed to adopt it; mention only what you really did.
+- **Result:** State the verified reduction in styling issues and the scope of the five services. Explain the measurement source and comparison period if you know them.
+- **Reflection:** Explain what you learned about adoption: a shared standard succeeds only when it is easy to consume, clearly documented, and supported by a practical migration path. Make this personal reflection your own.
+
+**Questions this story can answer:**
+- Tell me about a time you took initiative beyond your role.
+- Tell me about a time you influenced people without formal authority.
+- Tell me about a time you convinced others to change their approach.
+- Describe a time you handled an ambiguous problem.
+- Tell me about an improvement you are proud of.
+- How have you improved code quality or consistency?
+- How do you explain a technical concept to a non-technical stakeholder?
+- Tell me about a time you had to balance consistency and team autonomy.
+- What is an example of a decision with impact beyond your own feature?
+- What would you do differently if you repeated the project?
+
+**Likely follow-ups to prepare:** What was inconsistent? Why tokens rather than only shared CSS? What did you personally implement? How did the services consume tokens? How was adoption handled? How was the metric measured? What exceptions existed?
+
+### Story 2 — Coordinating an Angular-to-React microfrontend migration
+**Employer:** Newegg  
+**Best for:** teamwork, leadership, complex problem, risk management, planning, disagreement, delivery under constraints, decision-making.
+
+**Grounded situation:** You led an Angular-to-React microfrontend migration across three production teams, with zero production downtime.
+
+**Story spine:**
+- **Situation:** A migration had to happen in a live production environment while three teams were involved.
+- **Task:** Lead the frontend migration while keeping production available and coordinating the work across teams.
+- **Action:** Describe the actual migration boundaries, your personal technical responsibilities, how you aligned the teams, how dependencies and integration were handled, and how rollout risk was controlled. **[CONFIRM]** any specifics such as traffic percentages, kill switches, contract tests, monitoring thresholds, or rollback mechanics; use them only if they were genuinely part of the project.
+- **Result:** The migration completed with zero production downtime across the three teams. Keep that claim precise: it does not automatically mean there were no defects or user-visible issues.
+- **Reflection:** Discuss one real lesson about cross-team planning, integration, or observability. If earlier monitoring or clearer contracts really was a lesson, explain the actual example; otherwise use the lesson you genuinely took away.
+
+**Questions this story can answer:**
+- Tell me about the most challenging project you worked on.
+- Tell me about a time you worked across teams.
+- Tell me about a time you led without being a manager.
+- Tell me about a difficult technical decision.
+- Tell me about a time you managed risk.
+- Tell me about a time you had to coordinate competing priorities.
+- Tell me about a disagreement on technical direction.
+- Tell me about a time you delivered a major change without disrupting users.
+- How do you approach a migration from a legacy system?
+- Tell me about a project that required careful planning.
+- What was your role, and what did the other teams own?
+- What would you change if you did it again?
+
+**Likely follow-ups to prepare:** Why React? Why microfrontends? How did old and new implementations coexist? What was the boundary between teams? What did you personally decide? What did zero downtime mean and how was it verified? What risks did you identify?
+
+### Story 3 — Refactoring the legacy PDF report module
+**Employer:** Manulife  
+**Best for:** ownership, technical debt, initiative, problem-solving, maintainability, delivering measurable value, taking on an unattractive task.
+
+**Grounded situation:** Your CV describes refactoring a shared PDF report-generation module and reducing the time needed to develop new reports by 40%; `myCV.md` also uses a 60% report-delivery-time claim. Verify which statement and metric definition belong in the current CV before quoting a number.
+
+**Story spine:**
+- **Situation:** The existing report module made new report work slower than desired. Describe the real source of complexity rather than assuming it was synchronous generation, duplicated templates, or repeated data fetching.
+- **Task:** Improve the module so new reports could be developed more efficiently.
+- **Action:** Explain the exact legacy constraints, your investigation, the refactoring you personally performed, how you avoided breaking existing reports, and how you validated the output. **[CONFIRM]** the actual architecture and tests; do not claim asynchronous processing, a template engine, batching, or specific performance tests unless you implemented them.
+- **Result:** State the verified improvement using the correct metric: development time for new reports, delivery lead time, or runtime performance are different things.
+- **Reflection:** Explain what you learned about improving legacy code safely and how you would make the baseline and regression checks clearer next time.
+
+**Questions this story can answer:**
+- Tell me about a time you improved an existing system.
+- Tell me about a time you took ownership of a difficult or neglected task.
+- Tell me about a time you reduced technical debt.
+- What project are you most proud of?
+- Tell me about a time you improved developer productivity.
+- Tell me about a time you had to understand unfamiliar code.
+- How do you measure the impact of engineering work?
+- Tell me about a time you made a system easier to maintain.
+- How did you protect existing functionality during a refactor?
+- Tell me about a time you delivered a measurable improvement.
+
+**Likely follow-ups to prepare:** What made the old module difficult? Which parts did you change? How did you validate PDF correctness? What was the baseline for the metric? How did you handle regressions? What was your individual contribution?
+
+### Story 4 — Building an attendance platform for 1,000+ employees
+**Employer:** Hucai  
+**Best for:** user empathy, adoption, stakeholder communication, product thinking, simplifying a workflow, practical impact, working with non-technical users.
+
+**Grounded situation:** You built a React attendance platform for more than 1,000 employees, with an approximately 60% reduction in HR's manual workload.
+
+**Story spine:**
+- **Situation:** Attendance administration involved manual HR work.
+- **Task:** Build a platform that supported the attendance workflow and reduced repetitive work.
+- **Action:** Describe the real workflow, user needs you gathered, frontend features you implemented, how you handled usability and edge cases, and how you worked with HR or other stakeholders. **[CONFIRM]** the actual source of user feedback, adoption challenge, rollout, and any resistance; don't claim a difficult stakeholder conflict unless it happened.
+- **Result:** The platform served 1,000+ employees and reduced HR manual workload by approximately 60%, according to your CV. Be ready to explain what work was counted and how the estimate was obtained.
+- **Reflection:** Explain how this experience shaped your approach to user-centered engineering: the system is useful only if it fits the actual workflow.
+
+**Questions this story can answer:**
+- Tell me about a time you put users first.
+- Tell me about a time you simplified a manual process.
+- Tell me about a time you worked with non-technical stakeholders.
+- Tell me about a product improvement with measurable impact.
+- Tell me about a time requirements came from real users.
+- Tell me about a time you had to balance usability and technical constraints.
+- How do you know whether a feature is successful?
+- Tell me about a time you translated a business need into a technical solution.
+- What kind of impact do you want your work to have?
+
+**Likely follow-ups to prepare:** Which workflow was automated? Which features did you personally build? How was the workload reduction estimated? What feedback changed the implementation? What was the hardest edge case? What evidence showed the platform was useful?
+
+### Story 5 — Deliberately expanding from frontend into full-stack and AI-enabled engineering
+**Employer:** Manulife  
+**Best for:** learning quickly, growth mindset, adapting to change, self-awareness, career motivation, handling unfamiliar work, strengths and development areas.
+
+**Grounded situation:** You have a frontend-heavy background and have expanded into Node.js backend work with Express.js/NestJS and MongoDB at Manulife. Your CV also describes building AI tooling that converts code into business documentation, improving documentation efficiency threefold.
+
+**Story spine:**
+- **Situation:** Your strongest foundation was frontend engineering, while your role and long-term direction called for broader end-to-end understanding.
+- **Task:** Build credible full-stack capability while continuing to deliver useful engineering outcomes.
+- **Action:** Explain one real example of learning or applying backend technology and, separately if appropriate, the AI documentation tool. Describe what you needed to learn, how you validated your understanding, where you asked for review, and what you personally implemented. **[CONFIRM]** the timeline, learning method, exact scope, AI model/tooling, safeguards, and the basis for the 3x metric.
+- **Result:** You broadened your scope into backend work; the AI documentation tool is associated with a threefold improvement in documentation efficiency according to your CV.
+- **Reflection:** Be precise about your current strengths and gaps. You can say that you are frontend-focused and growing your backend depth without pretending to be a specialist in every distributed-systems topic.
+
+**Questions this story can answer:**
+- Tell me about a time you learned something quickly.
+- Tell me about a time you stepped outside your comfort zone.
+- How have you changed as an engineer over the last few years?
+- What is a professional weakness you are actively improving?
+- Tell me about a time you adapted to a new technology.
+- What motivates you to keep learning?
+- Tell me about a time you used AI to improve a workflow.
+- How do you validate AI-generated output?
+- What would you like to improve next?
+- Why are you moving toward full-stack work?
+- How do you respond when you don't know something?
+
+**Likely follow-ups to prepare:** What did you build yourself? What did you not own? How did you validate correctness? What was the learning curve? What exactly does 3x mean? What is still a gap in your knowledge?
+
+## Expanded BQ question bank
+
+Use the story map below to practise answering different questions with the same evidence, while avoiding repetition in a single interview.
+
+| Behavioural dimension | Questions to practise | Best starting story |
+|---|---|---|
+| Initiative and ownership | Tell me about a time you took initiative. / Tell me about a time you owned a problem end to end. / Tell me about a time you went beyond your job description. | 1 or 3 |
+| Influence and leadership | Tell me about a time you influenced a team without authority. / How did you get others to adopt your approach? / Tell me about a time you led a cross-team effort. | 1 or 2 |
+| Teamwork and collaboration | Tell me about a time you collaborated across teams. / What role do you play in a team? / How did you coordinate work with dependencies? | 2 |
+| Conflict and disagreement | Tell me about a technical disagreement. / Tell me about a time you challenged an approach. / What would you do if your lead disagreed with you? | 2; use only a real conflict |
+| Mistakes and failure | Tell me about a mistake you made. / Tell me about a project that did not go as planned. / Tell me about a time you received critical feedback. | Choose a real incident; none is asserted by this document |
+| Ambiguity and decision-making | Tell me about an ambiguous task. / How did you make a decision with incomplete information? / How do you choose between a refactor and a rewrite? | 1 or 3 |
+| Pressure and prioritisation | Tell me about a time you handled competing priorities. / How do you respond to a tight deadline? / Tell me about a risk you had to manage. | 2 or 3, if the pressure is real |
+| Quality and technical debt | Tell me about a time you improved maintainability. / How do you prevent regressions? / Tell me about a quality-versus-speed trade-off. | 3 or 2 |
+| Customer and stakeholder focus | Tell me about a time you improved a user workflow. / How did you work with a non-technical stakeholder? / Tell me about a time user feedback changed your approach. | 4 |
+| Learning and adaptability | Tell me about a time you learned a new skill. / Tell me about a time you adapted to change. / What are you currently working to improve? | 5 |
+| Communication | Tell me about a time you explained something complex simply. / How do you communicate project risks? / Tell me about a time communication mattered to delivery. | 1, 2, or 4; use a specific real example |
+| Impact and motivation | Which project are you proudest of? / What kind of work motivates you? / How do you measure engineering impact? | 3 or 4 |
+| AI and engineering judgement | Tell me about a time you used AI at work. / How do you check AI-generated content? / When would you not use AI? | 5, limited to what you actually built |
+| Self-awareness | What is your greatest strength? / What is a weakness you are addressing? / What feedback has changed how you work? | 5 for growth; use a real feedback example |
+| Career direction | Why frontend-focused full-stack? / Where do you want to grow in the next three to five years? / Why this role? | 5, combined with role-specific motivation |
+
+## Questions that need a separate, real incident
+
+The five stories provide broad coverage, but they do **not** justify inventing an answer for every question. Prepare a sixth, short example only if you can recall a real event for:
+- a mistake or failure and its actual impact;
+- a missed deadline or a time you had to renegotiate scope;
+- critical feedback you received and what changed afterward;
+- a conflict with a coworker or manager;
+- a miscommunication and the mechanism you introduced to prevent recurrence;
+- an occasion when you had to say “I don't know”;
+- a time you changed your mind after evidence or feedback.
+
+A credible answer can be modest. Interviewers need to understand your judgement, accountability, and learning—not a dramatic failure.
+
+## Personal fact-check checklist before memorising
+
+- [ ] Confirm the design-token outcome metric and its denominator; `myCV.md` and the resume walkthrough currently use different percentages.
+- [ ] Confirm whether the PDF outcome is a 40% reduction in new-report development time or a 60% reduction in report delivery time, and keep the definitions separate.
+- [ ] Prepare one concrete example of your own actions in each story.
+- [ ] Prepare the measurement method for every metric you quote.
+- [ ] Add one truthful mistake/feedback/conflict example from your own memory.
+- [ ] Remove every `[CONFIRM]` detail you cannot verify.

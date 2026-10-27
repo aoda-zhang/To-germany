@@ -1,48 +1,30 @@
 # To Germany 🇩🇪
 
-Aoda's single entry point for preparing for software engineering roles in Germany.
+Aoda's preparation hub for frontend-focused full-stack software engineering roles in Germany.
 
-**Start here.** Use this page as the project map; each Markdown file covers one topic. Keep answers truthful, consistent with the CV, and grounded in work you personally did.
+**Start here.** All preparation documents live in the repository root. Similar content has been consolidated into a small set of topic guides; no topic subfolders are needed.
 
-## Interview preparation
+## Preparation guides
 
-| Topic | What to prepare |
+| Document | Contents |
 |---|---|
-| [HR interview](./topics/hr-interview.md) | Why Germany, why this company, work authorization, salary, notice period, language |
-| [Resume walkthrough](./topics/resume-walkthrough.md) | Explain each CV line, project decisions, personal ownership, metrics, and trade-offs |
-| [Behavioral questions (BQ)](./topics/behavioral-questions.md) | Existing BQ guide, STAR structure, and common behavioural dimensions |
-| [BQ story bank: five core stories](./topics/bq-story-bank.md) | Five CV-grounded stories, story mapping, and a fact-check checklist |
-| [Expanded BQ question bank](./topics/bq-question-bank.md) | 200 CV-tailored prompts across 10 behavioural categories, with story anchors and preparation guidance |
-| [Frontend technical interview](./topics/frontend-technical.md) | React, TypeScript, micro-frontends, design systems, performance, CSS/browser |
-| [Backend technical interview](./topics/backend-technical.md) | Node.js, NestJS, MongoDB, REST APIs, security, system design |
-| [Advanced project deep dive](./topics/advanced-project-deep-dive.md) | High-intensity follow-up questions on core projects and AI engineering |
-| [Germany-specific topics](./topics/germany-specific.md) | German workplace culture, cross-cultural collaboration, probation |
-| [Interview-day checklist and questions](./topics/interview-day-and-questions.md) | Questions to ask interviewers, final checklist, practice resources |
-| [Networking and referrals](./topics/networking-and-referrals.md) | LinkedIn outreach, recruiter messages, referral follow-ups |
+| [Interview preparation](./interview-prep.md) | Self-introduction, HR questions, motivation for Germany, German workplace expectations, questions to ask, and interview-day checklist |
+| [Behavioral interview](./behavioral-interview.md) | STAR + reflection, core stories, BQ question bank, Chinese question analysis, and answer guidance |
+| [Technical interview](./technical-interview.md) | Frontend, React, JavaScript, browser/UI, backend, Node.js, APIs, and coding review |
+| [Resume and project deep dives](./resume-and-projects.md) | CV walkthrough, project architecture, technical decisions, trade-offs, ownership, and metrics |
+| [Job search and relocation](./job-search-and-relocation.md) | Networking/referral messages, relocation documents, work authorization checklist, and English practice notes |
 
-## Core profile documents
+## Reference files
 
-- [Self-introduction](./self-introduction.md) — English and Chinese versions.
-- [Resume guidance](./resume.md) — CV structure, tailoring, and review resources.
-- [CV source data](./fullStack-CV.json) — structured CV data used as a source of truth.
-- [English practice](./English.md) — speaking and listening practice.
+- [Full-stack CV data](./fullStack-CV.json)
+- [CV PDF](./Aoda-Zhang-Full-stack-Software-Engineer.pdf)
+- [Germany CV reference image](./germany-refer.png)
+- [Resume reference example](./resume_refer.md)
 
-## Germany relocation preparation
+## Working principles
 
-- [Degree recognition and relocation preparation](./topics/relocation-preparation.md)
-
-### Relocation checklist
-
-- [ ] Check degree-recognition requirements and prepare the relevant documents.
-- [ ] Confirm the current work-authorization / EU Blue Card pathway for your situation.
-- [ ] Keep CV, LinkedIn, self-introduction, and interview answers consistent.
-- [ ] Track German-language progress and set a realistic next milestone.
-- [ ] Research each employer's product, customers, engineering practices, and role requirements before interviewing.
-
-## Working rules
-
-1. **One topic per file.** Add new material to the relevant topic file and link it here.
-2. **The CV is the source of truth.** Do not invent ownership, technologies, project details, or metrics.
-3. **Separate facts from answer outlines.** Replace placeholders such as `[your real scope]` and `[your real metric]` with verified details before memorizing an answer.
-4. **Keep answers interview-ready.** Prefer concise spoken English, supported by concrete examples and follow-up details.
-5. **Update links here whenever a topic file is added, renamed, or removed.**
+- Use **I** for your own actions and **we** for team outcomes.
+- Keep metrics and technical details consistent with the CV and your actual experience.
+- Treat `[CONFIRM]` notes as reminders to verify the real facts before using an answer.
+- Understand the story structure instead of memorizing scripts.
+- For visa, degree recognition, and Blue Card requirements, verify current official German sources before acting.
