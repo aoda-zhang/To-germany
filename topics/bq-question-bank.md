@@ -1639,3 +1639,278 @@
 **建议练习顺序：** 先准备 5–7 个真实核心故事，再练动机题和情境题；不要试图为每一道题单独背一篇答案。
 
 **来源：** [Tech Interview Handbook — Behavioral Interview Questions](https://www.techinterviewhandbook.org/behavioral-interview-questions/)（访问日期：2026-10-27）。
+
+
+---
+
+# 15. Questions to Ask the Company（面试最后反问面试官）
+
+> 主要依据：[GreatFrontEnd — Useful Questions to Ask at the End of your Front End Interview](https://www.greatfrontend.com/behavioral-interview-playbook/questions-to-ask)。该指南建议按面试对象区分问题：Recruiter/HR、未来同事、Hiring Manager，以及跨团队合作者。目标不是把问题全部问完，而是选择最能帮助你判断岗位是否匹配的问题，同时展示你对工作内容、团队协作和交付结果的关注。
+>
+> **使用原则：** 每轮通常准备 3–5 个候选问题，实际选择 2–3 个即可。优先问官网无法查到、且前面交流中尚未回答的问题。不要机械地把整张清单问一遍。
+
+## 15.1 最终必备问题：优先准备这 8 个
+
+这些是通用主问题。根据面试官身份和面试进度挑选，不需要每轮全部问。
+
+### 1. 岗位成功标准（优先级最高）
+
+**English**
+
+> What would success look like for someone in this role during the first six months?
+
+**中文**
+
+您希望这个岗位的人在入职前六个月取得哪些成果？
+
+**适合问：** Hiring Manager、Team Lead。
+
+**为什么问：** 了解团队对这个岗位的实际期望、优先级和衡量标准。也能判断公司是否有清晰的入职目标。
+
+### 2. 当前最重要的工程挑战
+
+**English**
+
+> What are the biggest technical or product challenges the team is working on right now?
+
+**中文**
+
+团队目前正在解决的最大技术或产品挑战是什么？
+
+**适合问：** Hiring Manager、工程师、Tech Lead。
+
+**为什么问：** 让你了解实际工作，而不是只听职位描述；也能自然地把话题引向你在 React、TypeScript、前端架构或后端服务方面的相关经验。
+
+### 3. 日常工作与技术栈
+
+**English**
+
+> Could you walk me through the kind of projects I would work on and the technologies the team uses?
+
+**中文**
+
+您能介绍一下我入职后可能参与的项目，以及团队目前使用的主要技术吗？
+
+**适合问：** 未来同事、工程师、Hiring Manager。
+
+**为什么问：** 确认岗位究竟是前端为主、前端偏重的全栈，还是职责更广的 Full-Stack Engineer；也能了解是维护现有系统，还是有新功能或新系统建设机会。
+
+### 4. 团队如何协作与做技术决策
+
+**English**
+
+> How does the team usually make technical decisions and resolve disagreements about different approaches?
+
+**中文**
+
+团队通常如何做技术决策？当大家对不同方案存在分歧时，一般如何解决？
+
+**适合问：** 工程师、Tech Lead、Hiring Manager。
+
+**为什么问：** 了解技术决策是否有清晰流程、团队是否鼓励基于证据讨论，以及高级工程师是否有机会影响技术方向。
+
+### 5. 跨团队依赖与交付
+
+**English**
+
+> How do teams coordinate when a project depends on work from multiple teams, especially when priorities or timelines change?
+
+**中文**
+
+项目依赖多个团队时，大家通常如何协调？如果优先级或交付时间发生变化，又会怎么处理？
+
+**适合问：** Hiring Manager、Tech Lead、跨团队合作者。
+
+**为什么问：** 这对企业级开发尤其重要。答案可以帮助你判断责任边界、依赖管理、风险升级和交付计划是否成熟。
+
+### 6. 代码质量与工程实践
+
+**English**
+
+> What engineering practices help the team maintain code quality and keep the codebase maintainable as it grows?
+
+**中文**
+
+随着代码库不断增长，团队通过哪些工程实践来维护代码质量和可维护性？
+
+**适合问：** 未来同事、工程师、Tech Lead。
+
+**为什么问：** 可以了解 Code Review、自动化测试、CI/CD、技术债管理、可观测性以及前端架构规范等真实实践。根据对方回答再追问，不必把所有实践一次问完。
+
+### 7. 经理的管理方式与反馈机制
+
+**English**
+
+> How would you describe your management style, and how do you usually give feedback and support engineers' development?
+
+**中文**
+
+您如何描述自己的管理方式？通常如何提供反馈并支持工程师成长？
+
+**适合问：** 直属经理。
+
+**为什么问：** 了解经理是否提供清晰预期、及时反馈、必要的自主权，以及如何帮助工程师成长。
+
+### 8. 下一步流程
+
+**English**
+
+> What are the next steps in the interview process, and is there anything about my experience that you would like me to clarify?
+
+**中文**
+
+接下来招聘流程是怎样的？关于我的经验，是否还有哪些方面希望我进一步说明？
+
+**适合问：** Recruiter、HR，或面试流程接近结束时的面试官。
+
+**为什么问：** 明确流程和时间安排，并给对方机会指出尚未解决的疑问。语气应自然，不要把它说成要求对方当场承诺结果。
+
+## 15.2 按面试对象选择问题
+
+### A. HR / Recruiter（招聘初筛）
+
+优先从下面选择 2–3 个：
+
+1. **Could you tell me more about the team I would be joining, including its structure and who this role reports to?**  
+   我将加入什么样的团队？团队结构如何，这个岗位向谁汇报？
+
+2. **What are the main priorities for this role, and how does the team contribute to the company's broader goals?**  
+   这个岗位的主要工作重点是什么？团队如何支持公司的整体目标？
+
+3. **What does the interview process look like, and what areas will each round focus on?**  
+   招聘流程包含哪些环节？每一轮主要考察什么？
+
+4. **Is this position primarily frontend-focused, or does it involve a broader range of full-stack responsibilities?**  
+   这个岗位主要聚焦前端，还是也承担更广泛的全栈职责？
+
+5. **What are the expectations around the start date for this position?**  
+   公司对这个岗位的入职时间有什么预期？
+
+6. **How would you describe the company's working culture, particularly around collaboration and work-life balance?**  
+   您如何描述公司的工作文化，尤其是在协作和工作生活平衡方面？
+
+**注意：** 只有当招聘人员尚未介绍流程、团队或岗位职责时才问对应问题。薪资、福利、假期和签证/搬迁等实际安排，可以在合适的 Recruiter 沟通阶段明确确认，不必刻意回避；但不要把这些作为与工程师技术面试交流时的主要问题。
+
+### B. 未来同事 / 工程师 / Tech Lead
+
+优先从下面选择 2–3 个：
+
+1. **What does a typical week look like for an engineer on this team?**  
+   团队工程师通常一周如何安排工作？
+
+2. **What kinds of projects would I likely work on during my first few months?**  
+   我入职后的前几个月可能参与哪些项目？
+
+3. **How do you balance feature delivery with refactoring and technical debt?**  
+   团队如何平衡新功能交付、重构和技术债处理？
+
+4. **How are code reviews handled, and what do you value most in a good review?**  
+   团队如何进行代码评审？您认为高质量的 Code Review 最重要的是什么？
+
+5. **How do frontend and backend engineers collaborate on API contracts and integration testing?**  
+   前后端工程师如何协作确定 API contract，并开展集成测试？
+
+6. **What is one thing about the team's engineering culture that you particularly appreciate, and one thing you would like to improve?**  
+   您最欣赏团队工程文化中的哪一点？又最希望改进什么？
+
+7. **How much ownership do engineers have over technical design and implementation decisions?**  
+   工程师在技术设计和实现决策中拥有多大自主权？
+
+### C. Hiring Manager / 直属经理
+
+优先从下面选择 2–3 个：
+
+1. **What would distinguish someone who performs well in this role from someone who performs exceptionally well?**  
+   在您看来，胜任这个岗位的人与表现特别优秀的人有什么区别？
+
+2. **What would you expect the person in this role to accomplish in the first six months and the first year?**  
+   您希望这个岗位的人在前六个月和第一年分别完成什么？
+
+3. **How do you set priorities when several projects compete for the team's time?**  
+   当多个项目争夺团队时间时，您如何确定优先级？
+
+4. **How do you evaluate engineers' performance and impact beyond the features they deliver?**  
+   除了交付功能之外，您还如何评估工程师的表现和影响力？
+
+5. **What opportunities would I have to influence frontend architecture, engineering standards, or cross-team initiatives?**  
+   我有哪些机会参与并影响前端架构、工程规范或跨团队项目？
+
+6. **What are the biggest challenges you would want the person joining this role to address first?**  
+   您最希望新加入的人优先解决哪些挑战？
+
+7. **How do you support engineers when project dependencies or changing priorities put delivery at risk?**  
+   当项目依赖或优先级变化影响交付时，您通常如何支持工程师？
+
+### D. 跨团队合作者 / 产品经理 / 设计师
+
+优先从下面选择 2–3 个：
+
+1. **How does this team work with product, design, and other engineering teams from planning through delivery?**  
+   从规划到交付，这个团队如何与产品、设计和其他工程团队协作？
+
+2. **What are the most common challenges when working across teams?**  
+   跨团队合作中最常见的挑战是什么？
+
+3. **How are requirements and scope changes communicated once implementation has started?**  
+   开发开始后，需求和范围变化通常如何沟通？
+
+4. **How do teams handle dependencies when another team cannot deliver on the original timeline?**  
+   当依赖团队无法按原计划交付时，各团队通常如何处理？
+
+5. **How do you measure whether a delivered feature has achieved its intended user or business outcome?**  
+   团队如何衡量已交付功能是否实现预期的用户或业务效果？
+
+### E. 创始人 / 高级管理层（仅在有机会时）
+
+1. **What are the company's most important priorities over the next few years, and how does this team contribute to them?**  
+   公司未来几年的主要优先事项是什么？这个团队如何为其做出贡献？
+
+2. **What are the biggest opportunities or challenges facing the company right now?**  
+   公司目前面临的最大机遇或挑战是什么？
+
+3. **How do you see the product and engineering organization evolving as the company grows?**  
+   随着公司发展，您认为产品和工程组织会如何演进？
+
+## 15.3 如何根据回答判断团队是否适合自己
+
+反问不只是为了表现积极，也是在收集决策信息。注意对方是否能给出具体例子，而不是只说“我们协作很好”“我们代码质量很高”。
+
+| 主题 | 较好的信号 | 需要进一步了解的信号 |
+|---|---|---|
+| 入职目标 | 能说出明确的阶段性目标和成功标准 | 目标模糊，却要求快速交付所有事情 |
+| 技术决策 | 有讨论、数据、设计评审和明确决策人 | 决策完全依赖个人偏好或职位高低 |
+| 跨团队合作 | 有负责人、里程碑、风险同步和升级路径 | 依赖长期无人负责，出问题后才互相指责 |
+| 代码质量 | 质量标准与交付节奏之间有明确权衡 | 只强调速度，或要求不计成本地追求完美 |
+| 工程师自主权 | 责任清晰，工程师可以提出方案并参与决策 | 责任很大，但没有决策权或所需支持 |
+| 反馈与成长 | 有持续反馈、明确期望和实际成长机会 | 只有年度评价，日常反馈和支持不清楚 |
+| 工作时间 | 能具体解释紧急事件、值班和加班的处理方式 | 长期加班被当作默认要求，边界不明确 |
+
+不要只凭单个回答就判定团队好坏。追问具体例子，并结合多个面试官的回答交叉验证。
+
+## 15.4 面试反问的实战策略
+
+### 面试前
+
+- [ ] 阅读公司的产品、业务、工程博客和职位描述。
+- [ ] 根据面试官身份，预选 3–5 个问题。
+- [ ] 把已经能从公开资料查到的问题删掉。
+- [ ] 把问题与你最关注的岗位因素对应起来：工作内容、技术成长、经理、团队协作和交付方式。
+
+### 面试中
+
+- [ ] 认真听对方介绍，已经回答过的问题不再重复问。
+- [ ] 优先选择能自然接续当前对话的问题。
+- [ ] 如果回答比较笼统，可以追问：**Could you give me a specific example?**（能举一个具体例子吗？）
+- [ ] 不要把反问环节变成审问；保持双向交流。
+
+### 面试结束时
+
+如果时间有限，优先问：
+
+1. **What would success look like in the first six months?**
+2. **What are the biggest challenges the team is working on right now?**
+3. **How does the team handle cross-team dependencies and changing priorities?**
+
+如果是 HR 初筛，则将第 3 个问题替换为招聘流程、岗位范围或入职时间相关问题；如果已经在与未来经理交流，则优先了解成功标准、团队挑战和管理方式。
+
+**来源：** [GreatFrontEnd — Useful Questions to Ask at the End of your Front End Interview](https://www.greatfrontend.com/behavioral-interview-playbook/questions-to-ask)；[GreatFrontEnd — Behavioral Interview Playbook](https://www.greatfrontend.com/behavioral-interview-playbook/introduction)。
