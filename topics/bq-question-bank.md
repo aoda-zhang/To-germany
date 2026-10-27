@@ -1385,3 +1385,257 @@
 - [GreatFrontEnd — Interview preparation](https://www.greatfrontend.com/interviews/get-started)
 - [Front-End Interview Handbook — Behavioral interview](https://www.frontendinterviewhandbook.com/tl/behavioral)
 - [Google — Non-technical interview preparation guide (PDF)](https://www.greatfrontend.com/static/guides/google-non-technical-guide.pdf)
+
+
+---
+
+# 14. Tech Interview Handbook 补充题库
+
+> 来源：[Tech Interview Handbook — The 30 most common Software Engineer behavioral interview questions](https://www.techinterviewhandbook.org/behavioral-interview-questions/)（页面标注为 30 道常见题，但当前页面的核心列表实际列出 29 道）。本节将其并入你的 BQ 练习体系，并补充页面中不同公司面试题的共通变体。
+>
+> **使用方式：** 先练习下面的核心题，再按目标公司的职位描述挑选补充题。题目不是标准答案，也不意味着每家公司都会问这些题。过去经历题必须使用真实故事；动机题要针对具体公司和岗位重新准备。
+
+## 14.1 核心行为面试题（英文题目 + 中文理解）
+
+### A. 求职动机、岗位匹配与职业规划
+
+1. **Why do you want to work for this company?**  
+   中文：为什么想加入这家公司？  
+   考察：是否理解产品、业务、团队和岗位，而不是只想找一份工作。回答时把公司具体特点与你的经验和职业目标连接起来。
+
+2. **Why do you want to leave your current or last company?**  
+   中文：为什么想离开现在或上一家公司？  
+   考察：职业动机是否成熟。聚焦希望承担的责任、成长方向和岗位匹配，不抱怨前雇主。
+
+3. **What are you looking for in your next role?**  
+   中文：你希望下一份工作具备什么？  
+   考察：目标是否清晰、现实，并与申请岗位一致。结合你希望继续发挥前端架构优势、承担适度全栈责任的定位回答。
+
+4. **What are you excited about?**  
+   中文：什么事情最让你兴奋或有动力？  
+   考察：内在动机。用具体技术问题、产品价值或工程挑战说明，不要只罗列技术名称。
+
+5. **What frustrates you?**  
+   中文：工作中什么事情会让你感到挫折？  
+   考察：自我认知和情绪管理。选择可建设性讨论的问题，并说明你会如何改善，而不是批评同事或组织。
+
+6. **What would you hope to achieve in the first six months?**  
+   中文：入职前六个月希望取得什么成果？  
+   考察：是否理解入职、熟悉业务、建立信任和逐步承担责任的过程。给出分阶段目标，不要承诺尚不了解的具体结果。
+
+7. **Tell me why you would be a good fit for this position.**  
+   中文：为什么你适合这个岗位？  
+   考察：能否把岗位要求、相关经历和可贡献的价值对应起来。优先选择两到三个最有证据支持的优势。
+
+### B. 项目经验、技术挑战与解决问题
+
+8. **What project are you currently working on?**  
+   中文：你目前在做什么项目？  
+   考察：能否清楚说明产品背景、目标、自己的职责、技术方案和结果。不要把团队全部工作都说成个人贡献。
+
+9. **What is the most challenging aspect of your current project?**  
+   中文：当前项目最具挑战的部分是什么？  
+   考察：问题分析、技术判断和风险处理。明确挑战为何困难、有哪些约束、你如何处理。
+
+10. **What was the most difficult bug you fixed in the past six months?**  
+    中文：过去六个月你修复过的最难的 Bug 是什么？  
+    考察：调试方法和证据意识。说明如何复现、缩小范围、验证假设、定位根因和防止回归；准备真实案例。
+
+11. **Describe a difficult challenge you faced on a project, how you overcame it, and what you learned.**  
+    中文：讲一次项目中的困难、你的解决方法和学到的经验。  
+    考察：完整的问题解决能力。用 STAR + Reflection，突出个人行动、取舍和可验证结果。
+
+12. **What are the most interesting projects you have worked on, and how are they relevant to this company?**  
+    中文：你做过最有意思的项目是什么？它与本公司的工作有什么关联？  
+    考察：项目选择、总结能力和岗位迁移能力。可从微前端迁移、Design Tokens、PDF 重构或 PawHaven 中选择最相关的真实案例。
+
+13. **Tell me about a project you are most passionate about, or one where you did your best work.**  
+    中文：你最有热情或表现最好的项目是什么？  
+    考察：个人动机、Ownership 和影响力。解释为什么重要、你亲自做了什么，以及结果如何验证。
+
+14. **What is something you had to push for in a previous project?**  
+    中文：过去项目中，有什么事情是你坚持推动的？  
+    考察：主动性、影响力和判断力。说明问题证据、不同意见、如何争取支持，以及何时调整立场。
+
+15. **Tell me about a time you met a tight deadline.**  
+    中文：讲一次你在紧迫期限内完成任务的经历。  
+    考察：优先级管理、风险控制和沟通。讲清楚如何拆分范围、保护关键质量、同步风险，避免只强调加班。
+
+16. **Tell me about something you had to persevere at for multiple months.**  
+    中文：讲一件你坚持推进数月才取得进展的事情。  
+    考察：持续执行力和长期影响。说明遇到的阻力、如何维持进展，以及哪些信号证明努力有效。
+
+17. **Tell me about a time you solved a technical problem. Be specific about your diagnosis and process.**  
+    中文：讲一次你解决技术问题的经历，具体说明诊断和处理过程。  
+    考察：技术排查是否系统。解释证据、假设、实验、根因、修复和验证，而不是只介绍最终代码。
+
+### C. 冲突、影响力与跨团队合作
+
+18. **Tell me about a time you had a conflict with a co-worker.**  
+    中文：讲一次你与同事发生冲突的经历。  
+    考察：沟通、同理心和解决分歧的能力。聚焦目标或技术分歧，说明如何基于事实寻找共识。
+
+19. **Tell me about a conflict where you needed to influence someone.**  
+    中文：讲一次你需要通过影响力解决分歧的经历。  
+    考察：没有直接管理权时如何推动决策。说明对方的顾虑、你使用的证据和最终决策。
+
+20. **Tell me about a time you disagreed with your manager.**  
+    中文：讲一次你与经理意见不一致的经历。  
+    考察：是否能尊重地表达不同意见、解释风险并支持最终决策。避免把故事讲成对经理的指责。
+
+21. **Tell me about a problem you had getting along with a work associate.**  
+    中文：讲一次你与合作同事相处或协作困难的经历。  
+    考察：自我认知、沟通适应和关系修复能力。说明你改变了什么，而不是只描述对方的问题。
+
+22. **Tell me about a time you needed information from someone who was not responsive. What did you do?**  
+    中文：需要某人提供信息但对方一直没有回应时，你怎么办？  
+    考察：主动跟进、依赖管理和升级判断。先明确请求、截止时间和影响，再选择替代方案或适当升级。
+
+23. **How did you work with senior management and multiple internal teams on a large project?**  
+    中文：你如何与高级管理人员和多个内部团队合作推进大型项目？  
+    考察：跨层级沟通、依赖管理和影响范围。说明不同利益相关者需要什么信息、如何协调决策和跟踪风险。
+
+24. **How do you deal with difficult coworkers? Give a specific example.**  
+    中文：如何与难以合作的同事共事？请给出具体例子。  
+    考察：能否区分行为、事实和个人评价。优先通过直接沟通、明确责任和共同目标解决问题，必要时再升级。
+
+### D. 反馈、自我认知与成长
+
+25. **What is the most constructive feedback you have received in your career?**  
+    中文：职业生涯中收到过最有建设性的反馈是什么？  
+    考察：是否愿意接受反馈并真正改变行为。准备反馈原文或核心意思、采取的行动及后续变化。
+
+26. **What aspects of your work are most often criticized?**  
+    中文：你的工作最常被指出哪些需要改进的地方？  
+    考察：是否了解自己的持续改进点。选择真实、可管理的弱点，说明你正在采取的具体措施。
+
+27. **How have you handled criticism of your work?**  
+    中文：你如何处理别人对你工作的批评？  
+    考察：面对压力时是否防御、能否区分事实与偏好。说明如何澄清、评估、回应并跟进。
+
+28. **What would your manager or colleagues say about you?**  
+    中文：你的经理或同事会如何评价你？  
+    考察：自我认知是否与实际工作行为一致。用真实反馈或合作实例支持，不要只堆砌形容词。
+
+29. **What are your biggest strengths and areas for growth?**  
+    中文：你最大的优势和需要成长的领域是什么？  
+    考察：岗位匹配和自我认知。优势要有案例支持；成长点要具体，并说明行动计划。
+
+### E. 工作方式、时间管理与职业表现
+
+30. **What does your best day of work look like?**  
+    中文：你理想中最高效、最有成就感的一天是什么样的？  
+    考察：工作动机和工作方式。描述专注时间、协作、解决问题和交付价值之间的平衡。
+
+31. **Tell me about a time you had to manage your time effectively.**  
+    中文：讲一次你有效管理时间的经历。  
+    考察：优先级、估算、任务拆分和风险沟通。说明你用什么方法，以及如何应对计划变化。
+
+32. **Tell me about a time your responsibilities became overwhelming. What did you do?**  
+    中文：当工作职责过多、难以兼顾时，你如何处理？  
+    考察：能否识别过载、协商优先级并及早沟通。不要把长期透支或单纯加班当作优秀表现。
+
+33. **If this were your first annual review, what would I be telling you?**  
+    中文：如果这是你入职后的第一次年度绩效评估，你希望经理如何评价你？  
+    考察：是否理解岗位成功标准。把期望转化为可观察的交付、协作和成长目标，而不是自我夸奖。
+
+34. **What strengths are most important for this position?**  
+    中文：你认为这个岗位最重要的优势是什么？  
+    考察：是否理解岗位要求。先解释关键能力，再用自己的真实经历证明匹配度。
+
+35. **Where do you see yourself in five years?**  
+    中文：你希望五年后发展到什么阶段？  
+    考察：职业方向是否合理、是否与岗位有共同点。说明希望承担的影响和责任，不要承诺僵化的职位头衔。
+
+## 14.2 页面中的公司题目变体（按能力归类）
+
+以下题目来自该页面列出的 Airbnb、Amazon、ByteDance、Dropbox、Hired、Lyft、Palantir、Slack、Stack Overflow、Stripe 等公司题目示例。它们是额外练习素材，不代表这些公司的当前官方题库或实际必问题。
+
+### 动机与公司理解
+
+- **Why do you want to join this company?**
+- **What excites you about this role?**
+- **What do you know about this role, and why are you interested in it?**
+- **What do you think of our product, and what would you improve?**
+- **What would you do if you joined our company?**
+- **What would you improve on our website or product?**
+- **What part of our mission resonates with you?**
+- **What are the best and worst things about your current company?**
+- **What do you not want to repeat from your last job?**
+
+练习提示：回答产品改进题时，先明确目标用户和使用场景，再提出问题假设、优先级、验证方法和潜在副作用。不要在不了解产品数据时把个人偏好说成确定结论。
+
+### 成就、失败与判断
+
+- **What is your biggest achievement in a previous project?**
+- **Tell me about a recent failure and what you learned from it.**
+- **Tell me about a mistake you made and what you would do differently.**
+- **How do you deal with a failed deadline?**
+- **Tell me about a time you acted without first getting your manager's approval.**
+- **Describe a situation where you predicted an outcome. How did you validate your prediction?**
+- **What is something you would have done differently in a previous situation?**
+- **Tell me about an analytical problem you solved.**
+
+练习提示：失败题要明确承认自己的决策或行动、真实影响、补救措施和预防机制。没有真实失败案例时，不要编造生产事故；可以选择范围较小但确实发生过的判断失误。
+
+### 团队合作与沟通
+
+- **How would you handle a teammate who disagrees with your technical approach?**
+- **Tell me about a time you had to deliver bad news.**
+- **How do you win over a colleague who is reluctant to adopt a change?**
+- **Tell me about a time you felt uncomfortable at work and how you handled it.**
+- **How do you explain a complex technical concept to a non-technical person?**
+- **How do you handle different opinions about the programming language or technology used in a project?**
+
+练习提示：解释如何理解对方的目标、比较方案、使用证据、达成决策并跟踪结果。影响力不等于让所有人同意你。
+
+### 技术项目与学习
+
+- **Walk me through a product or feature you delivered from beginning to end.**
+- **Explain the architecture of a challenging project you worked on.**
+- **What is the hardest technical problem you have encountered, and how did you solve it?**
+- **How do you stay up to date with new technologies?**
+- **What is something you can teach me in a few minutes?**
+- **What have you built, and what problem did it solve?**
+
+练习提示：项目深挖时准备架构边界、个人贡献、关键取舍、失败路径、测试策略、运行结果和后续改进。学习新技术的问题应说明你如何判断信息可信度，以及如何把知识转化为实际工作能力。
+
+### 个人特点与开放式问题
+
+- **Tell me about yourself and why you are a good fit for this role.**
+- **What are three strengths and three weaknesses you have?**
+- **What would your previous manager say is your greatest strength?**
+- **What is something you believe that many people disagree with?**
+- **What is broken around you that you would like to improve?**
+- **What large problem would you like to solve, and why?**
+
+练习提示：开放式问题没有唯一标准答案。用清晰的判断标准和具体例子展示思考方式；避免为了显得独特而提出无法论证的观点。
+
+## 14.3 根据你的经历优先准备哪些题
+
+| 优先级 | 题目方向 | 可考虑的真实故事 | 需要补齐的证据 |
+|---|---|---|---|
+| 高 | 最有挑战的项目、技术问题、架构解释 | Newegg 微前端迁移；Manulife PDF 重构 | 根因、备选方案、风险、验证方式 |
+| 高 | 影响他人、坚持推动改进、跨团队冲突 | Manulife Design Tokens；Newegg 多团队迁移 | 对方的真实顾虑、你如何沟通、决策如何形成 |
+| 高 | 紧迫期限、时间管理、优先级冲突 | 选择确实发生过的企业项目 | 时间约束、取舍、风险沟通和实际结果 |
+| 高 | 失败、批评、与经理意见不一致 | 必须使用真实事件，不要从项目名称推断冲突 | 自己的责任、补救行动、反馈和复盘 |
+| 高 | 为什么换工作、下一份工作想要什么 | 结合真实职业规划和目标职位 | 正向动机、岗位匹配、对德国市场的合理预期 |
+| 中 | 产品改进、第一天或前六个月计划 | 目标公司的产品和职位描述 | 用户问题假设、优先级、衡量标准 |
+| 中 | 长期坚持、学习新技术、未来成长 | 前端向全栈发展；PawHaven 的真实进展 | 学习路径、应用证据、能力边界 |
+| 中 | 个人优势、同事如何评价你 | 真实合作反馈和具体交付 | 具体例子，避免无证据的自我评价 |
+
+## 14.4 练习与复盘清单
+
+每次练习任选一道题，并记录以下内容：
+
+- [ ] 我是否直接回答了问题，而不是背诵一段通用故事？
+- [ ] 过去经历是否真实，个人贡献是否与团队贡献区分清楚？
+- [ ] 我是否解释了当时的约束、选择依据和被放弃的方案？
+- [ ] 结果是否有证据支撑？如果没有量化数据，是否能给出可观察结果？
+- [ ] 我是否说明了从这次经历中学到什么，以及下次会如何改进？
+- [ ] 能否在 60–120 秒内完成主回答，并应对“为什么”“怎么验证”“如果重来”的追问？
+- [ ] 同一轮面试是否避免重复使用完全相同的故事？
+
+**建议练习顺序：** 先准备 5–7 个真实核心故事，再练动机题和情境题；不要试图为每一道题单独背一篇答案。
+
+**来源：** [Tech Interview Handbook — Behavioral Interview Questions](https://www.techinterviewhandbook.org/behavioral-interview-questions/)（访问日期：2026-10-27）。
