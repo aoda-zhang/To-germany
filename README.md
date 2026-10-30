@@ -13,6 +13,7 @@ Aoda's preparation hub for frontend-focused full-stack software engineering role
 | [Technical interview](./technical-interview.md) | Frontend, React, JavaScript, browser/UI, backend, Node.js, APIs, and coding review |
 | [Resume and project deep dives](./resume-and-projects.md) | CV walkthrough, project architecture, technical decisions, trade-offs, ownership, and metrics |
 | [Job search and relocation](./job-search-and-relocation.md) | Networking/referral messages, relocation documents, work authorization checklist, and English practice notes |
+| [FAJIG pre-contract checklist](./fajig-pre-contract-checklist.md) | Questions to ask before signing: service scope, CV timeline, applications, mock interviews, ongoing support, fees, contract terms, and refunds |
 
 ## Reference files
 
