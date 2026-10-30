@@ -30,7 +30,14 @@ We completed the migration without production downtime. The experience taught me
 
 ---
 
+3:讲述你的一次犯错 第一次接触另一个架构，那是一个很简单的更改，我参考了其中一个 然后我被说完全错误，应该参考当前系统开发原则
+后来才发现 系统中存在一些不一致的开发模式 于是我探索了整个v2的开发模式，写了文档，怎么开发，有哪些坑，然后发到了group chat中
+
 ## 2. Conflict and disagreement
+
+2:conflict （有，我们的switch 交易fund card完全何其他的设计风格不一致，我拿到，和设计师douber confirm，
+and 设计师说我参考的是整个系统的设计，感觉没人有问题，最终导致我们推迟了2周交付，但是那也暴露了我们整个合作流程的一个问题，之后，
+当设计师在做设计的，就会参考我们当前整个系统的设计或者来找开发人员）
 
 ### Q: Tell me about a time you disagreed with an existing technical approach.
 

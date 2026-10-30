@@ -2,22 +2,19 @@
 
 Use this as the canonical preparation document for explaining the CV, project decisions, ownership, trade-offs, and measurable outcomes. Keep metrics consistent with the approved CV and verify details before using them in interviews.
 
-
 ---
 
 # Resume walkthrough
-
-本文件的答案按**面试时可以直接说出口**的方式编写，而不是答题提示。英文答案使用第一人称，尽量自然、清楚，不把团队成果都说成个人成果。
-
-**准确性原则：** 内容以当前简历为依据。简历没有明确写出的具体库、部署策略、测试工具、指标统计周期或精确基线，不会编造成既定事实。如果面试官追问到这些细节，应按实际项目补充；不要背诵自己无法证实的数字或实现。
-
-## 1. Overall career story / 整体职业经历
 
 ### Q1. Could you walk me through your background?
 
 **Answer (EN)**
 
-Sure. I have over nine years of experience in software development, mainly working with React, TypeScript, and Node.js. After graduating, I joined Hucai, where I learned the software development lifecycle and worked on important internal systems with guidance from senior engineers. After five years, I wanted to step outside my comfort zone and work on more international products in an environment that placed greater emphasis on engineering quality and maintainability, so I joined Newegg. There, I contributed to the technology migration of the Newegg Marketplace and developed mobile features for sellers. I also gained experience maintaining products across multiple markets and collaborating with international teams. About a year later, the company made a strategic change and our entire mobile development team was laid off. I then joined Manulife, a Canadian global asset-management company, where my role became more full-stack. I enjoy being able to develop and maintain a product end to end, from the frontend to backend services, and to think more broadly about product needs and system architecture. I'm now planning to move to Germany for family reasons, and I'm looking for a software engineering role where I can build on my experience while continuing to learn and take on new challenges.
+Sure. I have over nine years of experience in software development, mainly working with React, TypeScript, and Node.js. 
+After graduating, I joined Hucai, where I learned the software development lifecycle and worked on important internal systems with guidance from senior engineers.
+After five years, I wanted to step outside my comfort zone and work on more international products in an environment that placed greater emphasis on engineering quality and maintainability, 
+so I joined Newegg. There, I contributed to the technology migration of the Newegg Marketplace and developed mobile features for sellers. I also gained experience maintaining products across multiple markets and collaborating with international teams.
+About a year later, the company made a strategic change and our entire mobile development team was laid off. I then joined Manulife, a Canadian global asset-management company, where my role became more full-stack. I enjoy being able to develop and maintain a product end to end, from the frontend to backend services, and to think more broadly about product needs and system architecture. I'm now planning to move to Germany for family reasons, and I'm looking for a software engineering role where I can build on my experience while continuing to learn and take on new challenges.
 
 **参考回答（中文）**
 
@@ -69,59 +66,29 @@ I'm looking for an opportunity to continue developing as an engineer in an inter
 
 ## 2. Manulife — Design tokens across five microfrontend services
 
-我们有几个微前端项目，但是由于一些架构设计问题，每个微前端都存在自己的样式管理
-有时候当我们尝试修复一个样式问题，甚至颜色问题，都要花费很久时间去分析多个微前端之间的差异
-当我尝试去重构我们整个系统的头部和footer部分的时候，这真的很混乱
+### 背景
+我接到一个ticket，我需要为整个系统设计和实现Portfolio Allocation Chart，必须保证所有market的同一个资产类别的fund 颜色显示一致，我去check了当前系统中的样式管理，我发现很混乱，很多地方直接存在原始值，我当时的想法是所有的market必须要采用统一的
+design token
 
-我可以很快的按照的每个微前端的样式方式快速处理ticket，但是随着项目feature越来越多
-我们的样式管理会很快遇到问题，这是我们的技术债务
-我当时的想法就是，我们必须要有一个合理的可统一参考的样式，每个微服务可以采用自己的方式
-但是我们必须align
+### action
 
-于是我做了搜索，也和一些market的设计师talk，我很快发现，其实整个公司有一个很明确的design system
-整个系统的primtive，like h1 h2 body,etc
-so that is it，而且figma上早就有了相关标注，只是没人关注
-于是我基于每个微前端的样式管理，根据这个primtive 做了实现
-最终每个微前端依然可以继续使用各自的样式管理，但是相关样式内容就必须严格遵守已经写好的design-token
+所以我做了一些调研，我检查了当时系统中存在多少的原始value引用，然后我用AI分析了因为样式hardcode导致的样式问题有多少，
 
-2:做了什么取舍
-从全部重构为统一的，到保持各自的样式管理，但是底层还是用同样的内容
-3:最终怎么解决的
-4:遇到了哪些困难
-5:下次会怎么做如果再给一次机会
-如果有下次，希望尽早的参与这些架构设计，制定微前端之间共享的design token
+我做了大概的estmation，如果要实施整个项目的design token大概要多少effot，我会怎么来实施，我把这个文档发给了我的manager，你知道，在企业项目里，每件事情都有时间线，所以如果要做这件事，必须要协调多个团队或者部门，我和我的manager talk了，他很认可我的这个发现 并且支持我这样做，所以之后我们就开了一个很大的会，最终我来实施技术部分
+
+### Trade-off
+考虑到整个系统已经稳定运行，所以我当时在实施的时候并没有让所有微前端采用同样的的样式管理方案，而不是保留了每个微前端的技术栈，只是所有微前端的底层会依赖同样的primtive的css veriable
+
+### Hardest part
+其实不是技术部分，最困难的部分是这是一个跨团队的合作，我们需要和design team合作，因为当我在做这个design token的时候我意识到 开发人员如果在figma上不能很方便的看到我们定义的语义化token，那么很快就会开发人员放弃这个方案，于是我需要和designer沟通，站在设计师的角度去思考问题，因为这真的给他们带来了额外的工作，我需要持续跟进进度，并且始终确保设计师能够得到我这边的支持，而且整个designer team是一个独立的team 需要整个team来支持我们的开发工作，所以这个工程里我的maneger给了一定的支持，和designer team mangge沟通同步·
+
+### Result
+我成功的实施了整个项目的design token，并且我向整个team分享了，在开发过程中如何在figama中使用最新的design token变量，同时，我们的code review也增加了整个review的规则
+
+## Refactor
+我希望我早点参与整个前端系统的架构设计，希望整个系统能够采用统一的技术栈来管理我们的样式，实际上现在我实施的这个design token部分已经成为我们整个team AI context很重要的一部分，并且我们也加入了我们的CICD code review check部分
 
 **CV bullet:** Led design token implementation across 5 microfrontend services, standardizing styling and reducing frontend styling issues by at least 30%.
-
-### Q1. What problem were you trying to solve?
-
-**Answer (EN)**
-
-We had several microfrontend applications, and each one managed its styles separately. When we needed to fix even a small styling issue, such as a color difference, we often had to spend a long time comparing the applications. This became especially confusing when I worked on refactoring the shared header and footer. Fixing each issue locally was possible in the short term, but as more features were added, the differences were becoming technical debt. I felt we needed a shared styling foundation that every microfrontend could align with, even if each application continued to manage its styles in its own way.
-
-**参考回答（中文）**
-
-这项工作的目标是统一五个微前端服务的样式。不同应用独立演进时，共同的设计规范容易逐渐偏离，类似的 UI 元素也可能出现视觉差异。Design tokens 为团队提供一套共同的设计值，让不同服务的样式更一致，也更容易维护。
-
-### Q2. What was your contribution?
-
-**Answer (EN)**
-
-I investigated how we could establish that shared foundation and spoke with designers from different markets. I discovered that the company already had a design system defining primitives such as heading levels and body text, and the relevant specifications were documented in Figma. They simply hadn't been consistently used across the applications. I implemented the design tokens based on those existing design primitives and the styling setup of each microfrontend. This allowed each application to keep its own styling approach while requiring shared styling values to follow the agreed tokens. My CV records at least a 30% reduction in frontend styling issues.
-
-**参考回答（中文）**
-
-我负责推动五个服务中的 design-token 实施。重点不是在每个服务里单独修复相同的样式问题，而是建立一套可以跨应用使用的一致样式基础。简历中记录的结果是样式一致性得到改善，前端样式问题至少减少了 30%。
-
-### Q3. Why use design tokens instead of fixing styles in each application?
-
-**Answer (EN)**
-
-I considered two options: refactor all the microfrontends into one unified styling approach, or let each application keep its existing styling setup while standardizing the underlying design values. I chose the second option. A complete styling refactor would have been much broader and more disruptive, while shared tokens could address the core inconsistency without forcing every application to use the same styling implementation. The key was to align the design values, not necessarily the styling tools or structure.
-
-**参考回答（中文）**
-
-在每个应用里分别修复样式可以解决眼前的问题，但长期来看容易重复劳动，也可能产生不一致的结果。Tokens 可以集中管理共同的设计决策，让各个应用使用统一的值，并以更可控的方式更新。对于多个微前端来说，这比依赖每个团队独立做出相同决定更容易维护。
 
 ### Q4. How did you measure the 30% reduction?
 
@@ -166,16 +133,6 @@ I'd make the shared approach easier to use than maintaining local alternatives. 
 
 我会让使用共享方案比维护各自的实现更简单。这需要清晰的命名、方便的接入方式、示例，以及符合各应用发布约束的迁移路径。我也会明确维护责任，让团队知道如何提出变更，以及如何管理兼容性。
 
-### Q8. What would you do if one service needed a different visual style?
-
-**Answer (EN)**
-
-I'd first check whether the difference is a legitimate product requirement or simply an inconsistency. If it is a real requirement, the shared system should support a deliberate variation rather than forcing every service to look identical. The aim is consistent design rules with controlled flexibility, not uniformity at any cost.
-
-**参考回答（中文）**
-
-我会先确认这种差异是合理的产品需求，还是无意产生的不一致。如果确实有业务需要，共享系统就应该支持有意识的变化，而不是强迫所有服务完全相同。目标是保持设计规则一致，同时允许受控的灵活性，而不是不计代价地追求统一。
-
 ### Q9. What would you do differently next time?
 
 **Answer (EN)**
@@ -198,6 +155,8 @@ I'd make adoption and measurement part of the plan from the beginning. A shared 
 
 我的manager给了很大的支持，我们开了一个会议，向我们其他国家的开发人员展示了我们的方案，
 最终，我们所有的market采用了统一的方案，新的PDF我们统一采用这个方案，实际上，因为有了AI，在我走之前，我们团队也正在用AI把原来久的方案迁移到目前我这个新的方案上面
+
+1:有没有遇到过困难，怎么解决的 （PDF本地生成成功，之后线上出错，最终请教aks同事，查看log，然后将chrome放到了redis）
 
 **CV bullet:** Refactored a legacy PDF report module with React, reducing new report development time by 40%.
 
