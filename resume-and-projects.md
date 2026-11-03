@@ -10,11 +10,21 @@ Use this as the canonical preparation document for explaining the CV, project de
 
 **Answer (EN)**
 
-Sure. I have over nine years of experience in software development, mainly working with React, TypeScript, and Node.js. 
-After graduating, I joined Hucai, where I learned the software development lifecycle and worked on important internal systems with guidance from senior engineers.
-After five years, I wanted to step outside my comfort zone and work on more international products in an environment that placed greater emphasis on engineering quality and maintainability, 
-so I joined Newegg. There, I contributed to the technology migration of the Newegg Marketplace and developed mobile features for sellers. I also gained experience maintaining products across multiple markets and collaborating with international teams.
-About a year later, the company made a strategic change and our entire mobile development team was laid off. I then joined Manulife, a Canadian global asset-management company, where my role became more full-stack. I enjoy being able to develop and maintain a product end to end, from the frontend to backend services, and to think more broadly about product needs and system architecture. I'm now planning to move to Germany for family reasons, and I'm looking for a software engineering role where I can build on my experience while continuing to learn and take on new challenges.
+Sure. I'm a frontend-focused full-stack software engineer with over nine years of experience, mainly working with React, TypeScript, and Node.js.
+
+I started my career at Hucai in 2017 as a frontend engineer. I worked on e-commerce and enterprise applications, where I gained solid experience in frontend development and learned how to collaborate with cross-functional teams.
+
+After almost four years, I wanted to challenge myself and work in a more international environment. So I joined Newegg, a North American e-commerce company, as a Senior Frontend Engineer.
+
+There, I worked with international teams and gained experience in microfrontend architecture. One of my key projects was leading an Angular-to-React migration across three teams, with zero production downtime.
+
+Later, due to a company restructuring, my team was affected, so I joined Manulife in 2022.
+
+Currently, I'm working as a Full-Stack Software Engineer, mainly developing and maintaining an investment platform. I work with React and TypeScript on the frontend, as well as Node.js and NestJS on the backend.
+
+One of my key contributions was standardizing design tokens across five microfrontend services, which reduced styling issues by at least 30%. I also refactored a legacy PDF reporting module, reducing new report development time by 40%.
+
+Overall, my strongest area is frontend architecture, but I also enjoy full-stack development because I want to understand and contribute to the entire system. Going forward, I'd like to strengthen my backend skills and grow into a well-rounded full-stack engineer.
 
 **参考回答（中文）**
 
