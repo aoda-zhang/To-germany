@@ -75,6 +75,43 @@ At this stage of my career, I’m looking for a frontend-heavy full-stack role w
 >
 > On the professional side it also fits: I work on financial products where correctness matters, and Germany's engineering culture — structured development, real code review, testing discipline — is exactly the environment I want to grow in long-term.
 
+**Practice version — family considerations (November 2026)**
+
+This version is based on the answer I practised in the conversation. It keeps the motivation personal and genuine, while connecting the family decision with a long-term future in Germany.
+
+**Recommended answer (natural, spoken English):**
+
+> To be honest, the decision is mainly driven by family considerations. Last year, my wife and I welcomed our first child, and since then we've been thinking more seriously about our child's education and long-term future.
+>
+> A close friend of my wife's has lived in Germany for over ten years. We've had many conversations with her about life in Germany, and those conversations have helped us understand the country better.
+>
+> After discussing it as a family, we feel Germany could be a good place for our child's future and for us to continue developing our careers.
+
+**Shorter version (easier to deliver in an initial recruiter call):**
+
+> To be honest, it's mainly a family decision. My wife and I welcomed our first child last year, so we've been thinking more about our child's education and long-term future. A close friend of my wife's has lived in Germany for over ten years, and talking with her has helped us learn more about life there. We feel Germany could be a good place for our family and our careers.
+
+**中文理解：**
+
+坦白说，这个决定主要是出于家庭考虑。去年我和妻子迎来了第一个孩子，从那以后，我们开始更加认真地考虑孩子的教育和长期发展。我妻子的一位好朋友已经在德国生活了十多年，我们和她聊过很多德国的生活情况，这帮助我们更深入地了解德国。经过家庭讨论，我们觉得德国可能是一个适合孩子未来成长、也适合我们继续发展职业生涯的地方。
+
+**表达要点：**
+
+- 用 **be driven by family considerations**，不要说 *the decision is driver for family*。
+- 用 **we welcomed our first child**，比 *I had my first baby* 更自然，也体现这是夫妻共同的决定。
+- 用 **has lived in Germany for over ten years**，强调朋友目前仍在德国生活；如果她已经离开德国，再改成 *lived*。
+- 用 **think about our child's education and long-term future**，比笼统的 *think about development* 更清楚。
+- 不需要批评中国教育，也不必展开孩子的作业和学习压力。把重点放在你们对家庭长期生活的规划。
+- 说完家庭动机后，适度补充职业发展即可；不要把回答说成只为孩子搬家，也不要声称德国一定能提供更好的教育或职业机会。
+
+**Likely follow-up:**
+
+> Have you already made concrete plans to relocate to Germany, or are you still exploring your options?
+
+回答时应根据真实搬迁时间、居留状态和家庭安排作答，不要为了显得坚定而承诺尚未确定的日期。
+
+---
+
 ⚠️ **中文备注：**
 - ❌ 不要说「想拿欧盟身份」「国内太卷」
 - ✅ 三个长期性证据按顺序讲：**疫情时就开始的多年决定 → 已在学德语（A1 完 / A2 在学）→ 孩子出生、全家搬过去**
