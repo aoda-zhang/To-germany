@@ -1386,3 +1386,106 @@ https://docs.google.com/spreadsheets/d/1ugzubxiROOuLgzm-Vltl3CRNQNEVGtQ7IQzrNppy
 ## 真实面试练习 sesame
 ## cambly口语练习，注意找有HR经验的
 ## 模拟面试 pramp
+
+---
+
+# Technical experience follow-up questions
+
+Use these answers when an interviewer goes deeper into backend architecture, the Newegg micro-frontend migration, or AI engineering. Keep the distinction between confirmed experience and details that still need verification.
+
+## Q1. Did you have microservices experience at Manulife?
+
+**Answer (EN)**
+
+I have hands-on experience across both frontend and backend development at Manulife. On the frontend, I worked across five micro-frontend services and helped standardize their design tokens.
+
+On the backend, I worked with Node.js, Express.js, NestJS, MongoDB, and REST APIs as part of our investment platform. My work included backend feature development and integrating frontend functionality with backend APIs.
+
+I would distinguish that experience from owning a complete distributed microservices architecture. My strongest, directly evidenced experience is in enterprise frontend architecture, micro-frontend integration, and full-stack feature development.
+
+**参考回答（中文）**
+
+我在 Manulife 同时有前端和后端开发经验。前端方面，我参与了五个微前端服务，并推动统一它们的 Design Token。后端方面，我使用 Node.js、Express.js、NestJS、MongoDB 和 REST API 参与投资平台的后端功能开发，以及前后端集成。
+
+不过，我会区分实际的后端开发和 API 集成经验，与独立负责完整的分布式微服务架构。我最有把握的经验是企业级前端架构、微前端集成，以及全栈功能交付。
+
+**Important distinction**
+
+- Micro-frontends are independently developed or delivered frontend application parts.
+- Microservices are independently deployable backend services organized around business capabilities.
+- Do not present the five Manulife micro-frontend services as five backend microservices.
+- Do not claim ownership of service discovery, distributed tracing, message brokers, or distributed transaction design unless a concrete Manulife example can be verified.
+
+## Q2. Which framework did you use for micro-frontends at Newegg?
+
+**Confirmed experience**
+
+At Newegg, I led an Angular-to-React micro-frontend migration involving three teams, with zero production downtime. The current CV and project notes confirm the migration and architecture, but they do not identify the micro-frontend orchestration or integration framework.
+
+**Safe answer (EN — use until the framework is verified)**
+
+At Newegg, I worked with a micro-frontend architecture during an Angular-to-React migration across three teams. The key requirement was to modernize the frontend incrementally without interrupting production.
+
+My focus was on coordinating the migration, managing integration boundaries between the teams, and keeping the existing product available throughout the transition. I don't want to give you an inaccurate framework name, so I'd rather describe the architecture and migration approach than guess whether it was a specific framework.
+
+**中文理解**
+
+我在 Newegg 参与的是基于微前端架构的 Angular 到 React 迁移，涉及三个团队。核心目标是在不影响线上服务的情况下逐步完成技术迁移。我主要关注迁移协调、团队之间的集成边界，以及整个过渡期间的线上稳定性。
+
+**[CONFIRM BEFORE INTERVIEW] Framework and implementation details**
+
+Verify the original Newegg repository, architecture diagram, package.json, build configuration, and deployment setup. In particular, establish whether the project used single-spa, Webpack Module Federation, a custom application shell, or another integration mechanism. Do not select one based on popularity or assumption.
+
+Once verified, record:
+1. The framework or integration mechanism and its version.
+2. Which application acted as the shell or container, if there was one.
+3. How Angular and React applications were mounted and integrated.
+4. How routing, shared dependencies, and cross-application communication were handled.
+5. How the migration was released safely and how rollback was handled.
+
+## Q3. How do you use AI, and how do you build AI agents?
+
+**Answer (EN)**
+
+I use AI in two areas: improving engineering workflows and building agent-based development workflows.
+
+At Manulife, I worked on AI-assisted engineering tools. For example, AI helped us analyze historical business logic and improve onboarding, and we introduced AI-assisted review and maintenance into our shared component-library workflow. We treated AI as an additional source of assistance, while keeping code checks and human review in the process.
+
+Outside work, I'm developing PawHaven, an open-source animal rescue platform. Alongside the product, I've been building a reusable AI engineering harness with OpenCode. Rather than relying on one general-purpose coding agent, I define a workflow with separate responsibilities:
+
+- An orchestrator interprets the task and coordinates the workflow.
+- An explorer inspects the codebase and gathers evidence.
+- An architect proposes an implementation plan and technical trade-offs.
+- A human approval step confirms the plan before implementation.
+- Implementer, tester, and reviewer responsibilities handle delivery and verification.
+
+I also create reusable Skills that capture project-specific architecture, coding conventions, and verification procedures. This helps agents work with the actual project context instead of relying only on generic prompts.
+
+My approach is to give agents clear responsibilities, relevant context, constrained tools, and verifiable outputs. I don't treat AI-generated code or reviews as automatically correct. Tests, static checks, code review, and human approval remain important.
+
+**Shorter version (EN)**
+
+I use AI both as a development assistant and as part of structured agent workflows. At Manulife, I contributed to AI-assisted tools for understanding historical business logic, onboarding, and component-library review.
+
+For my open-source project PawHaven, I'm building an AI engineering harness with OpenCode. It coordinates agents for code exploration, architecture planning, implementation, testing, and review. I also create reusable Skills to provide project-specific context and rules. An important part of the workflow is human approval before implementation, followed by verifiable testing and review.
+
+**参考回答（中文）**
+
+我主要在两个方面使用 AI：提升工程工作流，以及构建基于 Agent 的开发工作流。
+
+在 Manulife，我参与了 AI 辅助工程工具的实践，例如帮助分析历史业务逻辑、改善新成员 onboarding，以及辅助共享组件库的 Review 和维护。AI 是额外的辅助能力，代码检查和人工 Review 仍然保留。
+
+在工作之外，我正在开发开源项目 PawHaven，同时使用 OpenCode 构建一个可复用的 AI Engineering Harness。我没有简单地依赖一个通用 Agent，而是把工作拆分为不同职责：Orchestrator 负责协调，Explorer 负责理解代码库，Architect 负责制定方案，之后通过人工审批，再进入实现、测试和 Review。
+
+我还会创建可复用的 Skills，把项目架构、编码规范和验证流程提供给 Agent，让它们能够结合真实项目上下文工作，而不只是依赖通用 Prompt。
+
+我的原则是给 Agent 明确的职责、上下文、工具边界和可验证的输出。AI 生成的代码和 Review 结果都不能直接视为正确，测试、静态检查和人工审核仍然不可缺少。
+
+**Likely follow-up: How do you prevent agents from making unsafe or incorrect changes?**
+
+I separate planning from implementation and require human approval before making changes. I also give each role a limited responsibility, ask agents to inspect the repository rather than invent missing context, and use tests, static analysis, and a separate review step to validate the result. If evidence is missing, the agent should report uncertainty instead of guessing.
+
+**Likely follow-up: Did you build an AI model or an agent framework from scratch?**
+
+No. My work is focused on designing and orchestrating agent workflows using existing AI coding tools, reusable Skills, project context, and verification steps. I would describe this as AI engineering and agent workflow design, not training a foundation model or building an LLM runtime from scratch.
+
