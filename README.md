@@ -20,6 +20,7 @@ Aoda's preparation hub for frontend-focused full-stack software engineering role
 | Skill | Location | Purpose |
 |---|---|---|
 | [JD summary](./.opencode/skills/jd-summary/SKILL.md) | `.opencode/skills/jd-summary/SKILL.md` | Analyze a job description, German/English requirements, technical keywords, CV match, and targeted CV improvements |
+| [Company research](./.opencode/skills/company-research/SKILL.md) | `.opencode/skills/company-research/SKILL.md` | Research a German employer's business, products, engineering context, working language, hiring signals, and interview preparation |
 
 ## Reference files
 
