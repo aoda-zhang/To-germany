@@ -17,8 +17,9 @@ Aoda's preparation hub for frontend-focused full-stack software engineering role
 
 ## OpenCode skills
 
-| Skill | Location | Purpose |
+| Agent / Skill | Location | Purpose |
 |---|---|---|
+| [Germany Job Search Agent](./.opencode/agents/germany-job-search.md) | `.opencode/agents/germany-job-search.md` | Primary orchestrator for the end-to-end Germany job search; routes tasks to relevant Skills and repository guides |
 | [JD summary](./.opencode/skills/jd-summary/SKILL.md) | `.opencode/skills/jd-summary/SKILL.md` | Analyze a job description, German/English requirements, technical keywords, CV match, and targeted CV improvements |
 | [Company research](./.opencode/skills/company-research/SKILL.md) | `.opencode/skills/company-research/SKILL.md` | Research a German employer's business, products, engineering context, working language, hiring signals, and interview preparation |
 
